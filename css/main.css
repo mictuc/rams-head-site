@@ -1419,6 +1419,44 @@ ul.social_icons li  a i{
   z-index: 0;
 }
 
+/*************************
+ ********* Past Shows Page CSS ******
+ **************************/
+
+#pastshows .table {
+    width: 92%;
+    margin: 10px 4%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+#pastshows .table>tbody>tr>td, #pastshows .table>tbody>tr>th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+}
+
+#pastshows .table .first {
+    border-right: 1px solid #ddd;
+    width: 106px;
+}
+
+#pastshows .table #bottomrow {
+    border-bottom: 0px;
+}
+
+#pastshows .table .cell {
+    text-align: center;
+}
+
+/*************************
+ ********* History Page CSS ******
+ **************************/
+
+#pagehooks {
+    padding: 0px;
+}
+
 /***********************
 ****Service page css****
 ***********************/
