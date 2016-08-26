@@ -120,7 +120,7 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .center {
@@ -1013,6 +1013,10 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
+#about-us {
+    padding-bottom: 0px;
+}
+
 .about-us {
   margin-top: 110px;
   margin-bottom: -110px;
@@ -1455,6 +1459,25 @@ ul.social_icons li  a i{
 
 #pagehooks {
     padding: 0px;
+}
+
+#history {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+/*************************
+ ********* Contact Page CSS ******
+ **************************/
+
+td.addresses {
+    padding: 8px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+#contactus .h3 {
+    color: #4e4e4e;
 }
 
 /***********************
