@@ -1441,8 +1441,29 @@ ul.social_icons li  a i{
 }
 
 #pastshows .table .first {
+    border-right: 4px solid #ddd;
+    width: 13%;
+}
+
+#pastshows .table .second, 
+#pastshows .table .third {
     border-right: 1px solid #ddd;
-    width: 106px;
+}
+
+#pastshows .table .second, 
+#pastshows .table .third,
+#pastshows .table .third {
+    width: 29%;
+}
+
+#pastshows .table>tbody>tr>th {
+    border-bottom: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+}
+
+#pastshows .table #toprow {
+    border-bottom: 4px solid #ddd;
+    border-right: 1px solid #ddd;
 }
 
 #pastshows .table #bottomrow {
