@@ -120,7 +120,7 @@ a:focus {
 }
 
 body > section {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 
 .center {
@@ -285,7 +285,6 @@ input.search-form:hover {
 
 .navbar-nav>li{
   margin-left: 35px;
-  padding-bottom: 28px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -323,7 +322,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
-  background-color: rgba(0,0,0,.85);
+    background-color: #151515;
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -364,6 +363,7 @@ input.search-form:hover {
 .navbar-inverse .navbar-form {
   border-top: 0;
   padding-bottom: 0;
+  margin-top:11px;
 }
 
 
@@ -1013,6 +1013,10 @@ a.accordion-toggle  i{
 ********* About Us Page CSS ******
 **************************/
 
+#about-us {
+    padding-bottom: 0px;
+}
+
 .about-us {
   margin-top: 110px;
   margin-bottom: -110px;
@@ -1417,6 +1421,84 @@ ul.social_icons li  a i{
   border-width: 11px;
   border-color: transparent transparent #DDD transparent;
   z-index: 0;
+}
+
+/*************************
+ ********* Past Shows Page CSS ******
+ **************************/
+
+#pastshows .table {
+    width: 92%;
+    margin: 10px 4%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+#pastshows .table>tbody>tr>td, #pastshows .table>tbody>tr>th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+}
+
+#pastshows .table .first {
+    border-right: 4px solid #ddd;
+    width: 13%;
+}
+
+#pastshows .table .second, 
+#pastshows .table .third {
+    border-right: 1px solid #ddd;
+}
+
+#pastshows .table .second, 
+#pastshows .table .third,
+#pastshows .table .third {
+    width: 29%;
+}
+
+#pastshows .table>tbody>tr>th {
+    border-bottom: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+}
+
+#pastshows .table #toprow {
+    border-bottom: 4px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#pastshows .table #bottomrow {
+    border-bottom: 0px;
+}
+
+#pastshows .table .cell {
+    text-align: center;
+}
+
+/*************************
+ ********* History Page CSS ******
+ **************************/
+
+#pagehooks {
+    padding: 0px;
+}
+
+#history {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+/*************************
+ ********* Contact Page CSS ******
+ **************************/
+
+td.addresses {
+    padding: 8px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+#contactus .h3 {
+    color: #4e4e4e;
 }
 
 /***********************
