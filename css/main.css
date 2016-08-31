@@ -958,7 +958,7 @@ a.accordion-toggle  i{
 }
 
 #partner {
-  background: url(../images/partners/partner_bg.png) 25% 50% no-repeat;
+  background: url(../includes/images/banners/partners/partner_bg.png) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -975,7 +975,7 @@ a.accordion-toggle  i{
 #alumni_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/alumni.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/alumni.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -992,7 +992,7 @@ a.accordion-toggle  i{
 #support_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/support.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/support.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1009,7 +1009,7 @@ a.accordion-toggle  i{
 #about_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/about.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/about.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1026,7 +1026,7 @@ a.accordion-toggle  i{
 #contact_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/contact.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/contact.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1043,7 +1043,7 @@ a.accordion-toggle  i{
 #pastshows_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/pastshows.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/pastshows.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
 
@@ -1061,7 +1061,7 @@ a.accordion-toggle  i{
 #gaieties_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/gaieties.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/gaieties.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
 }
@@ -1079,7 +1079,7 @@ a.accordion-toggle  i{
 #owoa_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/owoa.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/owoa.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
 }
@@ -1097,7 +1097,7 @@ a.accordion-toggle  i{
 #spring_show_banner {
   padding: 24px;
   height: 252px;
-  background: url(../images/spring_show.jpg) 25% 50% no-repeat;
+  background: url(../includes/images/banners/spring_show.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
 }
@@ -1126,7 +1126,7 @@ a.accordion-toggle  i{
 }
 
 #conatcat-info{
-  background: #fff url(../images/contact.png) no-repeat 90% 0;
+  background: #fff url(../includes/images/banners/contact.png) no-repeat 90% 0;
   padding: 30px 0;
 }
 
@@ -1715,7 +1715,7 @@ td.addresses {
 }
 
 .clients-comments {
-    background-image: url("../images/image_bg.png");
+    background-image: url("../includes/images/banners/image_bg.png");
     background-position: center 118px;
     background-repeat: no-repeat;
     margin-bottom: 100px;
@@ -2121,7 +2121,7 @@ td.addresses {
 **************************/
 
 .gmap-area {
-  background-image: url("../images/map.jpg");
+  background-image: url("../includes/images/banners/map.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2434,7 +2434,7 @@ ul.pagination > li:hover > a {
 }
 
 .search_box {
-  background-image: url("../images/search_icon.png");
+  background-image: url("../includes/images/banners/search_icon.png");
   background-position: 314px 15px;
   background-repeat: no-repeat;
   border-color: #DEDEDE;
