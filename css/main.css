@@ -972,6 +972,147 @@ a.accordion-toggle  i{
   color: #fff;
 }
 
+#alumni_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/alumni.jpg) 25% 50% no-repeat;
+  background-size: cover;
+}
+
+#alumni_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#alumni_banner h2,
+#alumni_banner h3 {
+  color: #222;
+}
+
+#support_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/support.jpg) 25% 50% no-repeat;
+  background-size: cover;
+}
+
+#support_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#support_banner h2,
+#support_banner h3 {
+  color: #444;
+}
+
+#about_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/about.jpg) 25% 50% no-repeat;
+  background-size: cover;
+}
+
+#about_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#about_banner h2,
+#about_banner h3 {
+    color: #fff;
+}
+
+#contact_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/contact.jpg) 25% 50% no-repeat;
+  background-size: cover;
+}
+
+#contact_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#contact_banner h2,
+#contact_banner h3 {
+  color: #fff;
+}
+
+#pastshows_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/pastshows.jpg) 25% 50% no-repeat;
+  background-size: cover;
+}
+
+#pastshows_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#pastshows_banner h2,
+#pastshows_banner h3 {
+  color: #fff;
+}
+
+
+#gaieties_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/gaieties.jpg) 25% 50% no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+#gaieties_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#gaieties_banner h2,
+#gaieties_banner h3 {
+  color: #fff;
+}
+
+#owoa_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/owoa.jpg) 25% 50% no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+#owoa_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#owoa_banner h2,
+#owoa_banner h3 {
+  color: #fff;
+}
+
+#spring_show_banner {
+  padding: 24px;
+  height: 252px;
+  background: url(../images/spring_show.jpg) 25% 50% no-repeat;
+  background-size: cover;
+  margin-bottom: 24px;
+}
+
+#spring_show_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#spring_show_banner h2,
+#spring_show_banner h3 {
+  color: #fff;
+}
+
+
 .partners ul {
   list-style: none;
   margin: 0;
@@ -1445,12 +1586,12 @@ ul.social_icons li  a i{
     width: 13%;
 }
 
-#pastshows .table .second, 
+#pastshows .table .second,
 #pastshows .table .third {
     border-right: 1px solid #ddd;
 }
 
-#pastshows .table .second, 
+#pastshows .table .second,
 #pastshows .table .third,
 #pastshows .table .third {
     width: 29%;
