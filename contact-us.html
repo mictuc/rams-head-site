@@ -108,15 +108,33 @@
             <h2>Email</h2>
             <div><em>No solicitations, please.</em><br />
                 <br />
-                General Inquiries - <a href="mailto:jstarr16@stanford.edu">Julia Starr</a><br />
+                General Inquiries - <a href="mailto:jstarr16@stanford.edu">Holly Dayton</a><br />
                 Ram's Head Leadership - <a href="mailto:turaluragoldfarb@lists.stanford.edu">Board of Directors</a><br />
-                Historical Information - <a href="mailto:jstarr16@stanford.edu">Julia Starr</a><br />
-                <br />
-                Gaieties - <a href="mailto:aaguila2@stanford.edu">Alejandra Aguilar</a><br />
-                Original Winter One Acts - <a href="mailto:daytonh@stanford.edu">Holly Dayton</a><br />
-                Spring Show - <a href="mailto:emily319@stanford.edu">Emily Ashton</a><br /><br  />
-                <em>To contact other staff members via email, please look up their contact information in <a href="http://stanfordwho.stanford.edu/SWApp/">StanfordWho</a>.</em>
+                Historical Information - <a href="mailto:jstarr16@stanford.edu">Holly Dayton</a><br />
             </div>
+
+            <!-- THIS IS THE SIDE COLUMN -->
+            <h2>Board of Directors 2016-2017</h2>
+            <h2>Executive Producer</h2>
+            <a id="ep"></a>
+
+            <h2>Board Members</h2>
+            <p id="board_members"></p><br />
+
+            <h2>Producers</h2>
+
+            Gaieties 2016- <a class="text" id="gaieties_producer"></a><br />
+
+            Original Winter One Acts 2015- <a class="text" id="owoa_producer"></a><br />
+
+            Wild Party - <a class="text" id="spring_show_producer"></a><br />
+
+            <h2>Executive Staff</h2>
+            Alumni Coordinator- Alejandra Aguilar<br />
+            Social Manager- Keegan Livermore<br />
+            Financial Officer- James Sherwood<br />
+            Theatrical Resources Manager- Sage Vorhees<br />
+            Publicity Manager- Elijah Williams<br />
 
             <h2>Theater Addresses</h2>
             <table>
@@ -141,31 +159,6 @@
                 </tr>
             </table>
 
-            <!-- THIS IS THE SIDE COLUMN -->
-            <h2>Board of Directors 2016-2017</h2>
-            <h2>Executive Producer</h2>
-            Holly Dayton
-
-            <h2>Board Members</h2>
-            Michael Tucker, Stephanie Sapp, James Sherwood<br />
-
-
-            <h2>Producers</h2>
-
-            Gaieties 2016- Alejandra Aguilar<br />
-
-            Original Winter One Acts 2015- Meley <br />
-
-            Wild Party- ...<br />
-
-
-            <h2>Executive Staff</h2>
-            Alumni Coordinator- Alejandra Aguilar<br />
-            Social Manager- Keegan Livermore<br />
-            Financial Officer- James Sherwood<br />
-            Theatrical Resources Manager- Sage Vorhees<br />
-            Publicity Manager- Elijah Williams<br />
-
         </div>
     </section>
 
@@ -183,5 +176,26 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/variables.js"></script>
+    <script>
+        document.getElementById('ep').innerHTML = ep_name;
+        document.getElementById('ep').setAttribute("href","mailto:"+ep_email);
+    </script>
+    <script>
+        document.getElementById('board_members').innerHTML = board_members;
+    </script>
+    <script>
+        document.getElementById('gaieties_producer').innerHTML = gaieties_producer_name;
+        document.getElementById('gaieties_producer').setAttribute("href","mailto:"+gaieties_producer_email);
+    </script>
+    <script>
+        document.getElementById('owoa_producer').innerHTML = owoa_producer_name;
+        document.getElementById('owoa_producer').setAttribute("href","mailto:"+owoa_producer_email);
+    </script>
+    <script>
+        document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
+        document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
+    </script>
+
 </body>
 </html>
