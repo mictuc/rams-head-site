@@ -6,7 +6,7 @@
     <meta name="keywords" content="Ram's Head, stanford, stanford theater, student theater, stanford theatre, student theatre, theatrical society, Gaieties, musical theater, musical, theater, theatre" />
     <meta name="description" content="Ram's Head Theatrical Society's Current Season." />
     <meta name="author" content="Michael Tucker">
-    <title>Current Season | Ram's Head</title>
+    <title>Contact Us | Ram's Head</title>
 
 	<!-- core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -148,7 +148,7 @@
             Holly Dayton
             
             <h2>Board Members</h2>
-            Michael Tucker, Stephanie Sapp, James Sherwood<br />
+            <p id="board_members"></p><br />
             
             
             <h2>Producers</h2>
@@ -184,5 +184,9 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/variables.js"></script>
+    <script>
+	document.getElementById('board_members').innerHTML = boardMembers;
+    </script>
 </body>
 </html>
