@@ -106,20 +106,20 @@
                 Stanford, CA  94309</div>
 
             <h2>Email</h2>
-            <div><em>No solicitations, please.</em><br />
+            <div><em>No solicitations, please.</em>
                 <br />
-                General Inquiries - <a href="mailto:jstarr16@stanford.edu">Holly Dayton</a><br />
+                General Inquiries - <a id="ep1"></a><br />
                 Ram's Head Leadership - <a href="mailto:turaluragoldfarb@lists.stanford.edu">Board of Directors</a><br />
-                Historical Information - <a href="mailto:jstarr16@stanford.edu">Holly Dayton</a><br />
+                Historical Information - <a id="historian"></a>
             </div>
 
             <!-- THIS IS THE SIDE COLUMN -->
-            <h2>Board of Directors 2016-2017</h2>
-            <h2>Executive Producer</h2>
-            <a id="ep"></a>
+            <h2 id="board_title"></h2>
+            <h4>Executive Producer</h4>
+            <a id="ep2"></a>
 
-            <h2>Board Members</h2>
-            <p id="board_members"></p><br />
+            <h4>Board Members</h4>
+            <p id="board_members"></p>
 
             <h2>Producers</h2>
 
@@ -130,11 +130,7 @@
             Wild Party - <a class="text" id="spring_show_producer"></a><br />
 
             <h2>Executive Staff</h2>
-            Alumni Coordinator- Alejandra Aguilar<br />
-            Social Manager- Keegan Livermore<br />
-            Financial Officer- James Sherwood<br />
-            Theatrical Resources Manager- Sage Vorhees<br />
-            Publicity Manager- Elijah Williams<br />
+            <p id="executive_staff"></p>
 
             <h2>Theater Addresses</h2>
             <table>
@@ -178,9 +174,14 @@
     <script src="js/wow.min.js"></script>
     <script src="js/variables.js"></script>
     <script>
-        document.getElementById('ep').innerHTML = ep_name;
-        document.getElementById('ep').setAttribute("href","mailto:"+ep_email);
+        document.getElementById('ep1').innerHTML = ep_name;
+        document.getElementById('ep1').setAttribute("href","mailto:"+ep_email);
     </script>
+    <script>
+        document.getElementById('ep2').innerHTML = ep_name;
+        document.getElementById('ep2').setAttribute("href","mailto:"+ep_email);
+    </script>
+
     <script>
         document.getElementById('board_members').innerHTML = board_members;
     </script>
@@ -195,6 +196,20 @@
     <script>
         document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
         document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
+    </script>
+    <script>
+        document.getElementById('board_title').innerHTML = "Board of Directors "+season_years;
+    </script>
+    <script>
+        document.getElementById('historian').innerHTML = historian_name;
+        document.getElementById('historian').setAttribute("href","mailto:"+historian_email);
+    </script>
+    <script>
+        document.getElementById('executive_staff').innerHTML = "Alumni Coordinator - "+alumni_coordinator+
+                                                                "<br>Social Manager - "+social_manager+
+                                                                "<br>Financial Officer - "+financial_officer+
+                                                                "<br>Theatrical Resource Manager - "+theatrical_resource_manager+
+                                                                "<br>Publicity Manager - "+publicity_manager;
     </script>
 
 </body>

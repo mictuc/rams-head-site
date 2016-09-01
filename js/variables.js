@@ -53,12 +53,20 @@ var fourth_show_description = "";
 // Leadership Information
 var ep_name = "Holly Dayton";
 var ep_email = "daytonh@stanford.edu";
-var board_members = "Michael Tucker, Stephanie Sapp, James Sherwood, Alison Valentine, Victor Ragsdale, Charlotte Dubach-Reinhold";
+var board_members = "Michael Tucker<br>\
+                    Stephanie Sapp<br>\
+                    James Sherwood<br>\
+                    Alison Valentine<br>\
+                    Victor Ragsdale<br>\
+                    Charlotte Dubach-Reinhold";
 var alumni_coordinator = "";
-var social_manager = "";
+var social_manager = "Peter Kurzner";
 var financial_officer = "James Sherwood";
 var theatrical_resource_manager = "Sage Voorhees, Conor Asercion";
 var publicity_manager = "";
 var historian_name = "Holly Dayton";
 var historian_email = "daytonh@stanford.edu";
+
+// Other Information
+var season_years = "2016-2017"
 var mailing_address = "Holly Dayton";
