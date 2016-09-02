@@ -198,6 +198,11 @@ body > section {
   margin-left: 0;
 }
 
+.navbar-brand img {
+  height: 54px;
+  width: 250px;
+}
+
 .top-bar {
   padding: 10px 0;
   background: #191919;
@@ -284,6 +289,7 @@ input.search-form:hover {
   background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
 
  .navbar-nav{
