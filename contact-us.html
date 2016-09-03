@@ -19,11 +19,14 @@
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <link rel="apple-touch-icon" sizes="180x180" href="includes/images/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="includes/images/ico/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="includes/images/ico/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="includes/images/ico/manifest.json">
+    <link rel="mask-icon" href="includes/images/ico/safari-pinned-tab.svg" color="#000000">
     <link rel="shortcut icon" href="includes/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="includes/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="includes/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="includes/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="includes/images/ico/apple-touch-icon-57-precomposed.png">
+    <meta name="msapplication-config" content="includes/images/ico/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head><!--/head-->
 
 <body>
@@ -79,26 +82,14 @@
     </section><!--/#contact_banner-->
 
 
-    <section id="contactus">
-        <div class="container">
-            <h2>Membership Mailing List</h2>
-            <div>Want to get involved with Ram's Head? Our email list is the main method of communication with our membership, and is where we solicit for staff positions and auditions. We also send occasional emails with general updates pertaining to the organization. Only emails directly related to Ram's Head are sent to <a href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>.</div>
+    <section class="container" id="contactus">
+        <div class="col-md-6">
+            <h2>Mailing List</h2>
+            <p>What's going on with Ram's Head? Want to get involved? Our email list is the main method of communication with our membership, and is where we solicit for staff positions and auditions. We also send occasional emails with general updates pertaining to the organization. Only emails directly related to Ram's Head are sent to <a target="_blank" href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>.</p>
 
-            <h2>Patron Mailing List</h2>
-            <div>Want to stay connected to Ram's Head? Only emails announcing our shows and ticketing information are sent to <a href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>.</div>
-
-            <h2>Administrative Mailing List</h2>
-            <div>Want to learn what the Board of Directors and Executive Staff are up to?  Each week, we send out our Board meeting agendas and minutes to <a href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>. The location and time of that week's Board meeting are also announced.</div>
-
-            <h2>Tech Mailing List</h2>
-            <div>Want to stay connected with the techies of Ram's Head? Needs for production design and technician positions are posted to <a href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>, as well as social activities and items of interest for backstage folk.</div>
-
-            <h2>Alumni Mailing List</h2>
-            <div>Are you a Ram's Head Alumnus interested in what we are up to since you graduated? Alumni event invitations and current Ram's Head happenings are posted to <a href="https://mailman.stanford.edu/mailman/listinfo/rams-announce">this list</a>.</div>
-
-            <h2>Who's In Charge Here Anyways?</h2>
-            <div>We are! Who are we? A bunch of fun-loving Stanford students who are gluttons for punishment and love theater. Ram's Head is run by many more people than you see onstage or backstage. The two main organizational bodies are the Board of Directors and the Executive Staff. The Board of Directors are the only elected positions in Ram's Head, and they are chosen in the Spring. The Executive Producer is hired by the previous EP and Board, and the Executive Staff is hired by the EP. Producers for each show that Ram's Head produces are hired by the Board. Ram's Head has no salaried positions (although many many people richly deserve it). More information about the governance of Ram's Head and the roles of various staff members can be found in the <a href="about.html">About Us</a> section of this website.</div>
-
+            <h2>Who's In Charge Here, Anyways?</h2>
+            <p>We are! Who are we? A bunch of fun-loving Stanford students who are gluttons for punishment and love theater. Ram's Head is run by many more people than you see onstage or backstage. The two main organizational bodies are the <b>Board of Directors</b> and the <b>Executive Staff</b>. The Board of Directors are elected each spring. The Executive Producer is hired by the previous EP and Board, and the Executive Staff are hired by the EP. Producers for each show that Ram's Head produces are hired by the Board. Ram's Head has no salaried positions (although many many people richly deserve it). More information about the governance of Ram's Head and the roles of various staff members can be found in the <a href="about-us.html">About Us</a> section of this website.</p>
+        
             <h2>Mailing Address</h2>
             <p id="mailing_address"></p>
 
@@ -110,7 +101,11 @@
                 Historical Information - <a id="historian"></a>
             </div>
 
-            <!-- THIS IS THE SIDE COLUMN -->
+            <h2>Social Media</h2>
+            <p>Facebook: <a target="_blank" href="https://www.facebook.com/ramshead/">Ram's Head Theatrical Society</a></p>
+        </div>
+
+        <div class="col-md-6 text-center">
             <h2 id="board_title"></h2>
             <h4>Executive Producer</h4>
             <a id="ep2"></a>
@@ -120,38 +115,44 @@
 
             <h2>Producers</h2>
 
-            Gaieties 2016- <a class="text" id="gaieties_producer"></a><br />
+            <i>Gaieties 2016</i> - <a class="text" id="gaieties_producer"></a><br>
 
-            Original Winter One Acts 2015- <a class="text" id="owoa_producer"></a><br />
+            <i>Original Winter One Acts 2017</i> - <a class="text" id="owoa_producer"></a><br>
 
-            Wild Party - <a class="text" id="spring_show_producer"></a><br />
+            <i>The Wild Party</i> - <a class="text" id="spring_show_producer"></a><br>
 
             <h2>Executive Staff</h2>
             <p id="executive_staff"></p>
+        </div>
 
+        <div class="col-md-12">
             <h2>Theater Addresses</h2>
             <table>
                 <tr>
-                    <td scope="col" class="addresses">
-                        <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Memorial Auditorium (Mem Aud)</a> and <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Pigott Theater</a><br />
-                        Memorial Hall<br />
-                        551 Serra Mall<br />
-                        Stanford, CA  94305<br />
+                    <td scope="col" class="addresses" style="padding: 0 30px 0 0">
+                        <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Memorial Auditorium (MemAud)</a> and <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Pigott Theater</a><br>
+                        Memorial Hall<br>
+                        551 Serra Mall<br>
+                        Stanford, CA 94305
                     </td>
-                    <td scope="col" class="addresses">
-                        <a href="http://campus-map.stanford.edu/index.cfm?ID=02-580">The Nitery</a><br />
-                        Old Union<br />
-                        520 Lasuen Mall<br />
-                        Stanford, CA  94305<br /><br />
+                    <td scope="col" class="addresses" style="padding: 0 30px 0 0">
+                        <a href="http://campus-map.stanford.edu/index.cfm?ID=02-580">The Nitery</a><br>
+                        Old Union<br>
+                        520 Lasuen Mall<br>
+                        Stanford, CA 94305
                     </td>
-                    <td scope="col" class="addresses">
-                        <a href="http://campus-map.stanford.edu/index.cfm?ID=09-410">The Kommissary</a><br />
-                        691 Pampas Lane<br />
+                    <td scope="col" class="addresses" style="padding: 0 30px 0 0">
+                        <a href="http://campus-map.stanford.edu/index.cfm?ID=09-410">The Kommissary</a><br>
+                        691 Pampas Lane<br>
+                        Stanford, CA  94305
+                    </td>
+                    <td scope="col" class="addresses" style="padding: 0 30px 0 0">
+                        <a href="https://campus-map.stanford.edu/?id=05-720&lat=37.42418698&lng=-122.17797509&zoom=17&srch=elliott%20">Elliott Program Center (EPC)</a><br>
+                        589 Governor's Ave<br>
                         Stanford, CA  94305
                     </td>
                 </tr>
             </table>
-
         </div>
     </section>
 
