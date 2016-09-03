@@ -1,6 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
 
+/********
+*General*
+********/
+html {
+  background-color: #151515; 
+}
+
 /*************************
 *******Typography******
 **************************/
@@ -191,6 +198,11 @@ body > section {
   margin-left: 0;
 }
 
+.navbar-brand img {
+  height: 54px;
+  width: 250px;
+}
+
 .top-bar {
   padding: 10px 0;
   background: #191919;
@@ -277,11 +289,8 @@ input.search-form:hover {
   background: #151515;
   padding: 15px 0;
   padding-bottom: 0;
+  padding-top: 0;
 }
-
- .navbar-nav{
-  margin-top: 12px;
- }
 
 .navbar-nav>li{
   margin-left: 35px;
