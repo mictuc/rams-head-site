@@ -90,8 +90,8 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-1">Congrats to Theory of Relativity!</h1>
-                                    <h2 class="animation animated-item-2">On a Fabulous West Coast Premiere!</h2>
+                                    <h1 class="animation animated-item-1" id="slide_one_title"></h1>
+                                    <h2 class="animation animated-item-2" id="slide_one_subtitle"></h2>
                                 </div>
                             </div>
                         </div>
@@ -103,7 +103,8 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-3">RENT</h1>
+                                    <h1 class="animation animated-item-1" id="slide_two_title"></h1>
+                                    <h2 class="animation animated-item-2" id="slide_two_subtitle"></h2>
                                 </div>
                             </div>
                         </div>
@@ -115,7 +116,8 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h1 class="animation animated-item-2">HAIRSPRAY</h1>
+                                    <h1 class="animation animated-item-1" id="slide_three_title"></h1>
+                                    <h2 class="animation animated-item-2" id="slide_three_subtitle"></h2>
                                 </div>
                             </div>
                         </div>
@@ -145,5 +147,15 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/variables.js"></script>
+    <script>
+        document.getElementById('slide_one_title').innerHTML = slide_one_title;
+        document.getElementById('slide_one_subtitle').innerHTML = slide_one_subtitle;
+        document.getElementById('slide_two_title').innerHTML = slide_two_title;
+        document.getElementById('slide_two_subtitle').innerHTML = slide_two_subtitle;
+        document.getElementById('slide_three_title').innerHTML = slide_three_title;
+        document.getElementById('slide_three_subtitle').innerHTML = slide_three_subtitle;
+    </script>
+
 </body>
 </html>
