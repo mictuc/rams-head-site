@@ -75,30 +75,30 @@
     </div>
 
 
+    <div class="container title">
+        <h5 id="season_title"></h5>
+    </div>
+
+
     <section id="about-us">
         <div class="container">
             <section id="gaieties_banner"></section>
 
 			<div class="center wow fadeInDown">
 				<h2 id="gaieties_title"></h2>
-				<p class="lead"><strong>Get Involved!</strong> If you want to help out with Gaieties 2016, reach out to producer <a class="text" id="gaieties_producer"></a>.</p>
-                <p class="lead"><strong>About The Show:</strong> Gaieties is an annual, student-written musical extravaganza dating back to 1911. Performed the week before Big Game against Cal, Gaieties is the ultimate celebration of how proud, ridiculous, and clever we are as Stanford students. It's a Stanford tradition not to be missed!</p>
-                <!-- <p class="lead"><strong>Show Dates:</strong> November __________</p>
-                <p class="lead"><strong>Ticket Info:</strong> Coming Soon!</p> -->
+                <p class="lead" id="gaieties_description"></p>
 			</div>
 
             <section id="owoa_banner"></section>
             <div class="center wow fadeInDown">
                 <h2 id="owoa_title"></h2>
-				<p class="lead"><strong>Get Involved!</strong> If you want to help out with OWOA 2016, reach out to producer <a class="text" id="owoa_producer"></a>. </br> Play selection and other staff hiring will occur in fall 2016.</p>
-                <p class="lead"><strong>About The Show:</strong> The Original Winter One Acts are a beloved annual Stanford tradition dating back to the 1980s. Three one act plays, all written, directed, and performed by students, make their world premieres at Stanford and proudly showcase student talent in writing for the stage.</p>
+                <p class="lead" id="owoa_description"></p>
             </div>
 
             <section id="spring_show_banner"></section>
             <div class="center wow fadeInDown">
                 <h2 id="spring_show_title"></h2>
-				<p class="lead"><strong>Get Involved!</strong> If you want to help out with The Wild Party, reach out to producer <a class="text" id="spring_show_producer"></a>. </br> Most staff hiring will occur in fall 2016.</p>
-                <p class="lead"><strong>About The Show:</strong> Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan apartment. After the colorful arrival of a slew of guests living life on the edge, Queenie's wandering eyes land on a striking man named Black. As the decadence is reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The gun gets fired, but who's been shot?</p>
+                <p class="lead" id="spring_show_description"></p>
 			</div>
         </section>
 
@@ -118,27 +118,18 @@
     <script src="js/wow.min.js"></script>
     <script src="js/variables.js"></script>
     <script>
-        document.getElementById('season_title').innerHTML = season_years+" Season";
-    </script>
-    <script>
-        document.getElementById('gaieties_title').innerHTML = gaieties_title;
-    </script>
-    <script>
-        document.getElementById('owoa_title').innerHTML = owoa_title;
-    </script>
-    <script>
-        document.getElementById('spring_show_title').innerHTML = spring_show_title;
-    </script>
+        document.getElementById('gaieties_description').innerHTML = gaieties_description;
+        document.getElementById('owoa_description').innerHTML = owoa_description;
+        document.getElementById('spring_show_description').innerHTML = spring_show_description;
 
-    <script>
+        document.getElementById('season_title').innerHTML = season_years+" Season";
+        document.getElementById('gaieties_title').innerHTML = gaieties_title;
+        document.getElementById('owoa_title').innerHTML = owoa_title;
+        document.getElementById('spring_show_title').innerHTML = spring_show_title;
         document.getElementById('gaieties_producer').innerHTML = gaieties_producer_name;
         document.getElementById('gaieties_producer').setAttribute("href","mailto:"+gaieties_producer_email);
-    </script>
-    <script>
         document.getElementById('owoa_producer').innerHTML = owoa_producer_name;
         document.getElementById('owoa_producer').setAttribute("href","mailto:"+owoa_producer_email);
-    </script>
-    <script>
         document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
         document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
     </script>

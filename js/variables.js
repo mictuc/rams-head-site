@@ -28,19 +28,41 @@ var slide_three_link = "http://news.stanford.edu/2015/04/09/hairspray-rams-head-
 var gaieties_title = "Gaieties 2016";
 var gaieties_producer_name = "Alejandra Aguilar";
 var gaieties_producer_email = "aaguilar2@stanford.edu";
-var gaieties_description = "";
+var gaieties_description = "<strong>Get Involved!</strong> If you want to help out with Gaieties 2016, reach "+
+"out to producer <a id=\"gaieties_producer\"></a>.<br><br><strong>About The Show:</strong> "+
+"Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
+"Performed the week before Big Game against Cal, Gaieties is the ultimate celebration "+
+"of how proud, ridiculous, and clever we are as Stanford students. It's a Stanford "+
+"tradition not to be missed!"
+
 
 // OWOA Information
 var owoa_title = "Original Winter One Acts 2017";
 var owoa_producer_name = "Meley Gebresellassie";
 var owoa_producer_email = "meleyg@stanford.edu";
-var owoa_description = "";
+var owoa_description = "<strong>Get Involved!</strong> If you want to help out with "+
+"OWOA 2016, reach out to producer <a id=\"owoa_producer\"></a>.<br>Play selection and "+
+"other staff hiring will occur in fall 2016.<br><br><strong>About The Show:</strong> "+
+"The Original Winter One Acts are a beloved annual Stanford tradition dating back to "+
+"the 1980s. Three one act plays, all written, directed, and performed by students, "+
+"make their world premieres at Stanford and proudly showcase student talent in writing "+
+"for the stage."
+
 
 // Spring Show Information
 var spring_show_title = "The Wild Party";
 var spring_show_producer_name = "Andy Kao";
 var spring_show_producer_email = "andykao@stanford.edu";
-var spring_show_description = "";
+var spring_show_description = "<strong>Get Involved!</strong> If you want to help "+
+"out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>."+
+"<br>Most staff hiring will occur in fall 2016.<br><br><strong>About The Show:</strong> "+
+"Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan "+
+"apartment. After the colorful arrival of a slew of guests living life on the edge, "+
+"Queenie's wandering eyes land on a striking man named Black. As the decadence is "+
+"reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent "+
+"rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
+"gun gets fired, but who's been shot?"
+
 
 // Fourth Show Information
 var fourth_show_this_season = false;
@@ -69,4 +91,4 @@ var historian_email = "daytonh@stanford.edu";
 
 // Other Information
 var season_years = "2016-2017"
-var mailing_address = "Holly Dayton";
+var mailing_address = "Holly Dayton<br>P.O. Box 12345<br>Stanford, CA, 94305";

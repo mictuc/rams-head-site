@@ -100,10 +100,7 @@
             <div>We are! Who are we? A bunch of fun-loving Stanford students who are gluttons for punishment and love theater. Ram's Head is run by many more people than you see onstage or backstage. The two main organizational bodies are the Board of Directors and the Executive Staff. The Board of Directors are the only elected positions in Ram's Head, and they are chosen in the Spring. The Executive Producer is hired by the previous EP and Board, and the Executive Staff is hired by the EP. Producers for each show that Ram's Head produces are hired by the Board. Ram's Head has no salaried positions (although many many people richly deserve it). More information about the governance of Ram's Head and the roles of various staff members can be found in the <a href="about.html">About Us</a> section of this website.</div>
 
             <h2>Mailing Address</h2>
-            <div>Julia Starr<br />
-                Ram's Head Theatrical Society<br />
-                P.O. Box 17142<br />
-                Stanford, CA  94309</div>
+            <p id="mailing_address"></p>
 
             <h2>Email</h2>
             <div><em>No solicitations, please.</em>
@@ -176,35 +173,19 @@
     <script>
         document.getElementById('ep1').innerHTML = ep_name;
         document.getElementById('ep1').setAttribute("href","mailto:"+ep_email);
-    </script>
-    <script>
         document.getElementById('ep2').innerHTML = ep_name;
         document.getElementById('ep2').setAttribute("href","mailto:"+ep_email);
-    </script>
-
-    <script>
         document.getElementById('board_members').innerHTML = board_members;
-    </script>
-    <script>
         document.getElementById('gaieties_producer').innerHTML = gaieties_producer_name;
         document.getElementById('gaieties_producer').setAttribute("href","mailto:"+gaieties_producer_email);
-    </script>
-    <script>
         document.getElementById('owoa_producer').innerHTML = owoa_producer_name;
         document.getElementById('owoa_producer').setAttribute("href","mailto:"+owoa_producer_email);
-    </script>
-    <script>
         document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
         document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
-    </script>
-    <script>
         document.getElementById('board_title').innerHTML = "Board of Directors "+season_years;
-    </script>
-    <script>
+        document.getElementById('mailing_address').innerHTML = mailing_address;
         document.getElementById('historian').innerHTML = historian_name;
         document.getElementById('historian').setAttribute("href","mailto:"+historian_email);
-    </script>
-    <script>
         document.getElementById('executive_staff').innerHTML = "Alumni Coordinator - "+alumni_coordinator+
                                                                 "<br>Social Manager - "+social_manager+
                                                                 "<br>Financial Officer - "+financial_officer+
