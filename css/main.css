@@ -2765,3 +2765,16 @@ shortcodes page css
   display: inline-block;
   margin-left: 15px;
 }
+
+/**********************
+* Footer Social Media *
+**********************/
+
+.social-media-bar {
+  display: inline-block;
+  float: right;
+}
+
+.social-media-bar a {
+  text-decoration: underline;
+}
