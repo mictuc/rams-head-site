@@ -99,7 +99,7 @@
         <footer id="footer" class="midnight-blue">
             <div class="container">
                 <div class="row">
-                        &copy; 2016 Ram's Head Theatrical Society | Stanford University | Stanford, CA
+                    &copy; <a id="copyright_year"></a> Ram's Head Theatrical Society | Stanford University | Stanford, CA
                         <div class="social-media-bar">
                             Follow us on <a target="_blank" href="https://www.facebook.com/ramshead/">Facebook</a>!
                         </div>
@@ -118,7 +118,6 @@
         document.getElementById('gaieties_description').innerHTML = gaieties_description;
         document.getElementById('owoa_description').innerHTML = owoa_description;
         document.getElementById('spring_show_description').innerHTML = spring_show_description;
-
         document.getElementById('season_title').innerHTML = season_years+" Season";
         document.getElementById('gaieties_title').innerHTML = gaieties_title;
         document.getElementById('owoa_title').innerHTML = owoa_title;
@@ -129,6 +128,7 @@
         document.getElementById('owoa_producer').setAttribute("href","mailto:"+owoa_producer_email);
         document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
         document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
+        document.getElementById('copyright_year').innerHTML = copyright_year;
     </script>
 
 

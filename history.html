@@ -98,7 +98,7 @@
                 <h2> Bibliography </h2>
                 <p class="lead">Shuttlesworth, Chris. "The History of Ram's Head." Hanging on the wall of the Ram's Head office.</br> Park, Samuel. "Gaieties - The History of a Stanford Tradition." Intermission, November 17, 1994. </br> Brown, Phil '37. Letter to the Alumni Ram's Horn. March 1994.</p>
             </div>
-        
+
     		<div class="left wow fadeInDown">
                 <h5>The History of Big Game Gaieties</h5>
                 <h4> Gaieties is an annual student written musical comedy aimed at uniting the Stanford campus. Performed the week before Big Game against Cal, the production is meant to remind students of the reasons for which we love Stanford. </h4>
@@ -134,7 +134,7 @@
     <footer id="footer" class="midnight-blue">
         <div class="container">
             <div class="row">
-                    &copy; 2016 Ram's Head Theatrical Society | Stanford University | Stanford, CA
+                &copy; <a id="copyright_year"></a> Ram's Head Theatrical Society | Stanford University | Stanford, CA
                     <div class="social-media-bar">
                         Follow us on <a target="_blank" href="https://www.facebook.com/ramshead/">Facebook</a>!
                     </div>
@@ -148,5 +148,9 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/variables.js"></script>
+    <script>
+        document.getElementById('copyright_year').innerHTML = copyright_year;
+    </script>
 </body>
 </html>

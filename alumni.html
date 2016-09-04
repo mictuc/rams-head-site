@@ -91,17 +91,7 @@
                         </ul>
                     </p>
                     <h4 class="text-center">Alumni Board Members</h4>
-                    <p class="lead text-center"><a href="mailto:vfoecke@gmail.com">Vince Foecke</a>, '81, MS '82, President 
-                    <br>Raphe Beck, '92
-                    <br>Joe Gasperetti '13
-                    <br>Dan Goldman, '94, MS '95
-                    <br>Monica Miklas, '09
-                    <br>Heather McAvoy, '83
-                    <br>Michael Rooney, BS/MS '11
-                    <br>Liz Stark, '12
-                    <br>Erik Stuart, PhD '00
-                    <br>Debbie Wicks La Puma, '91
-                    <br>Melissa Wilson, '94, MA '96</p>
+                    <p class="lead text-center" id="alumni_board"></p>
                     <p class="lead">For more information, view the <a target="_blank" class="text" href="includes/documents/Alumni_Board_Constitution.pdf">Alumni Board Constitution</a>.</p>
                 </div>
 
@@ -132,7 +122,7 @@
             <footer id="footer" class="midnight-blue">
                 <div class="container">
                     <div class="row">
-                            &copy; 2016 Ram's Head Theatrical Society | Stanford University | Stanford, CA
+                            &copy; <a id="copyright_year"></a> Ram's Head Theatrical Society | Stanford University | Stanford, CA
                             <div class="social-media-bar">
                                 Follow us on <a target="_blank" href="https://www.facebook.com/ramshead/">Facebook</a>!
                             </div>
@@ -146,5 +136,12 @@
     <script src="js/jquery.isotope.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/wow.min.js"></script>
+    <script src="js/variables.js"></script>
+    <script>
+        document.getElementById('alumni_board').innerHTML = alumni_board;
+        document.getElementById('alumni_board_president').innerHTML = alumni_board_president_name;
+        document.getElementById('alumni_board_president').setAttribute("href","mailto:"+alumni_board_president_email);
+        document.getElementById('copyright_year').innerHTML = copyright_year;
+    </script>
 </body>
 </html>
