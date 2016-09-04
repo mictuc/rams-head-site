@@ -5,7 +5,7 @@
 *General*
 ********/
 html {
-  background-color: #151515; 
+  background-color: #151515;
 }
 
 /*************************
@@ -127,7 +127,7 @@ a:focus {
 }
 
 body > section {
-  padding: 50px 0;
+  /*padding: 50px 0;*/
 }
 
 .center {
@@ -205,7 +205,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background: #191919;
+  background: #151515;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -1168,8 +1168,8 @@ a.accordion-toggle  i{
 }
 
 .about-us {
-  margin-top: 110px;
-  margin-bottom: -110px;
+  /*margin-top: 110px;*/
+  /*margin-bottom: -110px;*/
 }
 
 .about-us h2,
@@ -2744,7 +2744,7 @@ shortcodes page css
   padding-top: 8px;
   padding-bottom: 8px;
   color: #fff;
-  background: #191919;
+  background: #151515;
 }
 
 #footer a {

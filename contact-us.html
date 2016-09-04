@@ -45,7 +45,7 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li><a href="index.html">Home</a></li>
-                        <li>
+                        <li class="dropdown">
                             <a href="current-season.html" class="dropdown-toggle" data-toggle="dropdown">Shows and Tickets <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="current-season.html">Current Season</a></li>
@@ -89,7 +89,7 @@
 
             <h2>Who's In Charge Here, Anyways?</h2>
             <p>We are! Who are we? A bunch of fun-loving Stanford students who are gluttons for punishment and love theater. Ram's Head is run by many more people than you see onstage or backstage. The two main organizational bodies are the <b>Board of Directors</b> and the <b>Executive Staff</b>. The Board of Directors are elected each spring. The Executive Producer is hired by the previous EP and Board, and the Executive Staff are hired by the EP. Producers for each show that Ram's Head produces are hired by the Board. Ram's Head has no salaried positions (although many many people richly deserve it). More information about the governance of Ram's Head and the roles of various staff members can be found in the <a href="about-us.html">About Us</a> section of this website.</p>
-        
+
             <h2>Mailing Address</h2>
             <p id="mailing_address"></p>
 
@@ -115,11 +115,11 @@
 
             <h2>Producers</h2>
 
-            <i>Gaieties 2016</i> - <a class="text" id="gaieties_producer"></a><br>
+            <i id="gaieties_title"></i> - <a class="text" id="gaieties_producer"></a><br>
 
-            <i>Original Winter One Acts 2017</i> - <a class="text" id="owoa_producer"></a><br>
+            <i id="owoa_title"></i> - <a class="text" id="owoa_producer"></a><br>
 
-            <i>The Wild Party</i> - <a class="text" id="spring_show_producer"></a><br>
+            <i id="spring_show_title"></i> - <a class="text" id="spring_show_producer"></a><br>
 
             <h2>Executive Staff</h2>
             <p id="executive_staff"></p>
@@ -130,7 +130,7 @@
             <table>
                 <tr>
                     <td scope="col" class="addresses" style="padding: 0 30px 0 0">
-                        <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Memorial Auditorium (MemAud)</a> and <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Pigott Theater</a><br>
+                        <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Memorial Auditorium (MemAud)</a> <br> <a href="http://campus-map.stanford.edu/index.cfm?ID=08-300">Pigott Theater</a><br>
                         Memorial Hall<br>
                         551 Serra Mall<br>
                         Stanford, CA 94305
@@ -180,10 +180,13 @@
         document.getElementById('ep2').innerHTML = ep_name;
         document.getElementById('ep2').setAttribute("href","mailto:"+ep_email);
         document.getElementById('board_members').innerHTML = board_members;
+        document.getElementById('gaieties_title').innerHTML = gaieties_title;
         document.getElementById('gaieties_producer').innerHTML = gaieties_producer_name;
         document.getElementById('gaieties_producer').setAttribute("href","mailto:"+gaieties_producer_email);
+        document.getElementById('owoa_title').innerHTML = owoa_title;
         document.getElementById('owoa_producer').innerHTML = owoa_producer_name;
         document.getElementById('owoa_producer').setAttribute("href","mailto:"+owoa_producer_email);
+        document.getElementById('spring_show_title').innerHTML = spring_show_title;
         document.getElementById('spring_show_producer').innerHTML = spring_show_producer_name;
         document.getElementById('spring_show_producer').setAttribute("href","mailto:"+spring_show_producer_email);
         document.getElementById('board_title').innerHTML = "Board of Directors "+season_years;
