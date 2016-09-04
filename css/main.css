@@ -983,7 +983,7 @@ a.accordion-toggle  i{
 
 #alumni_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/alumni.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
@@ -1000,7 +1000,7 @@ a.accordion-toggle  i{
 
 #support_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/support.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
@@ -1017,7 +1017,7 @@ a.accordion-toggle  i{
 
 #about_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/about.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
@@ -1034,7 +1034,7 @@ a.accordion-toggle  i{
 
 #contact_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/contact.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
@@ -1051,7 +1051,7 @@ a.accordion-toggle  i{
 
 #pastshows_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/pastshows.jpg) 25% 50% no-repeat;
   background-size: cover;
 }
@@ -1069,7 +1069,7 @@ a.accordion-toggle  i{
 
 #gaieties_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/gaieties.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
@@ -1087,7 +1087,7 @@ a.accordion-toggle  i{
 
 #owoa_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/owoa.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
@@ -1105,7 +1105,7 @@ a.accordion-toggle  i{
 
 #spring_show_banner {
   padding: 24px;
-  height: 252px;
+  height: 200px;
   background: url(../includes/images/banners/spring_show.jpg) 25% 50% no-repeat;
   background-size: cover;
   margin-bottom: 24px;
