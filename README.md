@@ -59,11 +59,18 @@ picture to replace it with, change the name of the new picture to match that of
 the existing picture, and move the new picture into the appropriate folder. You
 can replace/delete the old picture, or you can change the name of that picture
 and leave it in the folder. Once the new picture with the correct name is in the
-correct folder, open up the pages that include that picture to check to make
-sure the picture updated correctly.
+correct folder, open up the pages that include that picture in your browser to
+check to make sure the picture updated correctly.
 
 ADDING ROWS TO PAST SHOWS PAGE
-To add last season's shows to the past shows page...
+This is the most complicated, relatively common change.
+To add last season's shows to the past shows page open up past-shows.html, then
+go down to line 99 where it says to "Copy and paste this section below, get rid
+of the <!- and change the necessary information." Copy the code from lines 100
+to 142, and paste it in line 143. Uncomment the code by getting rid of the <!-
+and -> at the beginning and end of the code block, then change the information
+you wish to change, save the file, then open the file in your browser to check
+that the changes were saved.
 
 MORE ADVANCED EDITS
 If you wish to change text that isn't in the variables.js file, feel free to
