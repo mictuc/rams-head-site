@@ -1618,6 +1618,11 @@ ul.social_icons li  a i{
     border-right: 1px solid #ddd;
 }
 
+#pastshows .table #toprowthird {
+    border-bottom: 4px solid #ddd;
+    border-right: 0px solid #ddd;
+}
+
 #pastshows .table #bottomrow {
     border-bottom: 0px;
 }

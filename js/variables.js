@@ -67,7 +67,7 @@ var spring_show_description = "<strong>Get Involved!</strong> If you want to hel
 "gun gets fired, but who's been shot?"
 
 
-// Fourth Show Information
+// Fourth Show Information, if fourth_show_this_season, it will add 4th show info to current season page
 var fourth_show_this_season = false;
 var fourth_show_title = "";
 var fourth_show_producer_name = "";
