@@ -9,20 +9,23 @@
 // Slide One Information
 var slide_one_title = "Congrats to Theory of Relativity";
 var slide_one_subtitle = "On a Fabulous West Coast Premiere!";
-var slide_one_button = false;
-var slide_one_link = "";
+var slide_one_button_present = true;
+var slide_one_button_text = "See the Website";
+var slide_one_button_link = "musical.stanford.edu";
 
 // Slide two Information
 var slide_two_title = "Rent";
-var slide_two_subtitle = "\"Rent reminds us to live for the moment\"";
-var slide_two_button = false;
-var slide_two_link = "";
+var slide_two_subtitle = "\"Rent reminds us to live for the moment\"<br>––Stanford Daily";
+var slide_two_button_present = false;
+var slide_two_button_text = "";
+var slide_two_button_link = "";
 
 // Slide three Information
 var slide_three_title = "Hairspray";
 var slide_three_subtitle = "Drawing parallels to the civil rights movement";
-var slide_two_button = true;
-var slide_three_link = "http://news.stanford.edu/2015/04/09/hairspray-rams-head-040915/";
+var slide_three_button_present = true;
+var slide_three_button_text = "Read the Review";
+var slide_three_button_link = "http://news.stanford.edu/2015/04/09/hairspray-rams-head-040915/";
 
 // Gaieties Information
 var gaieties_title = "Gaieties 2016";
