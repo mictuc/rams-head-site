@@ -11,7 +11,7 @@ var slide_one_title = "Congrats to Theory of Relativity";
 var slide_one_subtitle = "On a Fabulous West Coast Premiere!";
 var slide_one_button_present = true;
 var slide_one_button_text = "See the Website";
-var slide_one_button_link = "musical.stanford.edu";
+var slide_one_button_link = "http://musical.stanford.edu";
 
 // Slide two Information
 var slide_two_title = "Rent";
