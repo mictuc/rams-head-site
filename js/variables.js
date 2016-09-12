@@ -49,7 +49,7 @@ var owoa_description = "<strong>About The Show:</strong> "+
 "make their world premieres at Stanford and proudly showcase student talent in writing "+
 "for the stage.<br><br><strong>Get Involved!</strong> If you want to help out with "+
 "OWOA 2016, reach out to producer <a id=\"owoa_producer\"></a>.<br>Play selection and "+
-"other staff hiring will occur in fall 2016."
+"other staff appointing will occur in fall 2016."
 
 
 // Spring Show Information
@@ -64,7 +64,7 @@ var spring_show_description = "<strong>About The Show:</strong> "+
 "rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
 "gun gets fired, but who's been shot?<br><br><strong>Get Involved!</strong> If you want to help "+
 "out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>."+
-"<br>Most staff hiring will occur in fall 2016."
+"<br>Most staff appointing will occur in fall 2016."
 
 
 // Fourth Show Information, if fourth_show_this_season, it will add 4th show info to current season page
