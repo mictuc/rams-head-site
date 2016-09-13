@@ -78,12 +78,14 @@ var fourth_show_description = "";
 // Leadership Information
 var ep_name = "Holly Dayton";
 var ep_email = "daytonh@stanford.edu";
-var board_members = "Michael Tucker<br>\
-                    Stephanie Sapp<br>\
-                    James Sherwood<br>\
-                    Alison Valentine<br>\
-                    Victor Ragsdale<br>\
-                    Charlotte Dubach-Reinhold";
+var board_members = [
+                    "Charlotte Dubach-Reinhold",
+                    "Victor Ragsdale",
+                    "Stephanie Sapp (Fall)",
+                    "James Sherwood",
+                    "Michael Tucker (Winter, Spring)",
+                    "Alison Valentine"
+                    ];
 var alumni_coordinator = "James Seifert";
 var social_manager = "Peter Kurzner";
 var financial_officer = "James Sherwood";
@@ -93,19 +95,23 @@ var webmaster = "Garrick Fernandez";
 var publicity_manager = "";
 var historian_name = "Holly Dayton";
 var historian_email = "daytonh@stanford.edu";
-var alumni_board_president_name = "Vince Foecke";
-var alumni_board_president_email = "vfoecke@gmail.com";
-var alumni_board =  "<a id=\"alumni_board_president\"></a>, '81, MS '82, President<br>"+
-                    "Raphe Beck, '92<br>"+
-                    "Joe Gasperetti '13<br>"+
-                    "Dan Goldman, '94, MS '95<br>"+
-                    "Monica Miklas, '09<br>"+
-                    "Heather McAvoy, '83<br>"+
-                    "Michael Rooney, BS/MS '11<br>"+
-                    "Liz Stark, '12<br>"+
-                    "Erik Stuart, PhD '00<br>"+
-                    "Debbie Wicks La Puma, '91<br>"+
-                    "Melissa Wilson, '94, MA '96";
+var alumni_board_president_name = "Melissa Wilson";
+var alumni_board_president_email = "m@wilsonstuart.com";
+var alumni_board =  [
+                    "<a id=\"alumni_board_president\"></a>, '94, MA '96, President",
+                    "Raphe Beck, '92",
+                    "Joe Gasperetti '13,",
+                    "Dan Goldman, '94, MS '95",
+                    "Vince Foecke, '81, MS '82",
+                    "Monica Miklas, '09",
+                    "Heather McAvoy, '83",
+                    "Michael Rooney, BS/MS '11",
+                    "Alicia Sanders, '01",
+                    "Liz Stark, '12",
+                    "Erik Stuart, PhD '00",
+                    "Adam Tobin, '93",
+                    "Debbie Wicks La Puma, '91"
+                    ];
 
 // Other Information
 var season_years = "2016-2017";

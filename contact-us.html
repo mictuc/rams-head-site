@@ -197,7 +197,12 @@
         document.getElementById('ep1').setAttribute("href","mailto:"+ep_email);
         document.getElementById('ep2').innerHTML = ep_name;
         document.getElementById('ep2').setAttribute("href","mailto:"+ep_email);
-        document.getElementById('board_members').innerHTML = board_members;
+        var formatted_board_text = "";
+        var member;
+        for (member in board_members) {
+            formatted_board_text += board_members[member] + "<br>";
+        }
+        document.getElementById('board_members').innerHTML = formatted_board_text;
         document.getElementById('gaieties_title').innerHTML = gaieties_title;
         document.getElementById('gaieties_producer').innerHTML = gaieties_producer_name;
         document.getElementById('gaieties_producer').setAttribute("href","mailto:"+gaieties_producer_email);
