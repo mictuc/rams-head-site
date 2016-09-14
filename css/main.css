@@ -1630,7 +1630,7 @@ ul.social_icons li  a i{
 
 #pastshows .table .second,
 #pastshows .table .third,
-#pastshows .table .third {
+#pastshows .table .fourth {
     width: 29%;
 }
 
@@ -1656,6 +1656,68 @@ ul.social_icons li  a i{
 #pastshows .table .cell {
     text-align: center;
 }
+
+/*************************
+ ********* Past Leadership Page CSS ******
+ **************************/
+
+#pastleadership .table {
+    width: 92%;
+    margin: 10px 4%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+}
+
+#pastleadership .table>tbody>tr>td, #pastshows .table>tbody>tr>th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    vertical-align: top;
+}
+
+#pastleadership .table .first {
+    border-right: 4px solid #ddd;
+    width: 12%;
+}
+
+#pastleadership .table .second,
+#pastleadership .table .third,
+#pastleadership .table .fourth {
+    border-right: 1px solid #ddd;
+}
+
+#pastleadership .table .second{
+    width: 16%
+}
+#pastleadership .table .third,
+#pastleadership .table .fourth,
+#pastleadership .table .fifth,
+ {
+    width: 24%;
+}
+
+#pastleadership .table>tbody>tr>th {
+    border-bottom: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+}
+
+#pastleadership .table #toprow {
+    border-bottom: 4px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+#pastleadership .table #toprowthird {
+    border-bottom: 4px solid #ddd;
+    border-right: 0px solid #ddd;
+}
+
+#pastleadership .table #bottomrow {
+    border-bottom: 0px;
+}
+
+#pastleadership .table .cell {
+    text-align: center;
+}
+
 
 /*************************
  ********* History Page CSS ******
