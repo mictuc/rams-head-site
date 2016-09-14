@@ -10,7 +10,7 @@
  var slide_one_title = "Audition for<br>Gaieties 2016!";
  var slide_one_subtitle = "Monday 9/26 thru<br>Wednesday 9/28 6–11PM<br><br>Be a part of history and<br>BEAT CAL!";
  var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
- var slide_one_button_present = true;
+ var slide_one_button_present = false;
  var slide_one_button_text = "Sign up for an audition slot!";
  var slide_one_button_link = "http://gaieties.stanford.edu";
 
