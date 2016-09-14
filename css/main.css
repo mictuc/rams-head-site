@@ -988,6 +988,7 @@ a.accordion-toggle  i{
   height: 200px;
   background: url(../includes/images/banners/alumni.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 #alumni_banner {
@@ -1005,6 +1006,7 @@ a.accordion-toggle  i{
   height: 200px;
   background: url(../includes/images/banners/support.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 #support_banner {
@@ -1022,6 +1024,7 @@ a.accordion-toggle  i{
   height: 200px;
   background: url(../includes/images/banners/about.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 #about_banner {
@@ -1039,6 +1042,7 @@ a.accordion-toggle  i{
   height: 200px;
   background: url(../includes/images/banners/contact.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 #contact_banner {
@@ -1056,6 +1060,7 @@ a.accordion-toggle  i{
   height: 200px;
   background: url(../includes/images/banners/pastshows.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
 }
 
 #pastshows_banner {
@@ -1071,9 +1076,10 @@ a.accordion-toggle  i{
 
 #gaieties_banner {
   padding: 24px;
-  height: 200px;
+  height: 315px;
   background: url(../includes/images/banners/gaieties.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
   margin-bottom: 24px;
 }
 
@@ -1089,9 +1095,10 @@ a.accordion-toggle  i{
 
 #owoa_banner {
   padding: 24px;
-  height: 200px;
+  height: 315px;
   background: url(../includes/images/banners/owoa.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
   margin-bottom: 24px;
 }
 
@@ -1107,9 +1114,10 @@ a.accordion-toggle  i{
 
 #spring_show_banner {
   padding: 24px;
-  height: 200px;
+  height: 315px;
   background: url(../includes/images/banners/spring_show.jpg) 25% 50% no-repeat;
   background-size: cover;
+  background-position: center; 
   margin-bottom: 24px;
 }
 
@@ -1123,6 +1131,24 @@ a.accordion-toggle  i{
   color: #fff;
 }
 
+#fourth_show_banner {
+  padding: 24px;
+  height: 315px;
+  background: url(../includes/images/banners/fourth_show.jpg) 25% 50% no-repeat;
+  background-size: cover;
+  background-position: center; 
+  margin-bottom: 24px;
+}
+
+#fourth_show_banner {
+  color: #fff;
+  text-align: center;
+}
+
+#fourth_show_banner h2,
+#fourth_show_banner h3 {
+  color: #fff;
+}
 
 .partners ul {
   list-style: none;
