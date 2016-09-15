@@ -11,23 +11,23 @@
  var slide_one_subtitle = "Monday 9/26 thru<br>Wednesday 9/28 6–11PM<br><br>Be a part of history and<br>BEAT CAL!";
  var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
  var slide_one_button_present = false;
- var slide_one_button_text = "Sign up for an audition slot!";
+ var slide_one_button_text = "Sign Up For An Audition Slot!";
  var slide_one_button_link = "http://gaieties.stanford.edu";
 
 // Slide two Information
-var slide_two_title = "Congrats to Theory of Relativity";
-var slide_two_subtitle = "On a Fabulous West Coast Premiere!";
+var slide_two_title = "Congrats to<br>Theory of Relativity";
+var slide_two_subtitle = "on a fabulous west coast premiere!";
 var slide_two_image = "includes/images/slider/theory_bg.jpg";
 var slide_two_button_present = true;
-var slide_two_button_text = "Read the review";
+var slide_two_button_text = "Read The Review";
 var slide_two_button_link = "http://stanfordartsreview.com/the-speed-of-life-a-review-of-rams-heads-theory-of-relativity/";
 
 // Slide three Information
-var slide_three_title = "Rent";
+var slide_three_title = "RENT";
 var slide_three_subtitle = "\"Rent reminds us to live for the moment\"<br>––Stanford Daily";
 var slide_three_image = "includes/images/slider/rent_bg.jpg";
 var slide_three_button_present = true;
-var slide_three_button_text = "See the review";
+var slide_three_button_text = "See The Review";
 var slide_three_button_link = "http://www.stanforddaily.com/2016/04/07/theater-review-rent/";
 
 // Gaieties Information
