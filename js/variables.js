@@ -7,12 +7,12 @@
  */
 
  // Slide one Information
- var slide_one_title = "Audition for<br>Gaieties 2016!";
- var slide_one_subtitle = "Monday 9/26 thru<br>Wednesday 9/28 6–11PM<br><br>Be a part of history and<br>BEAT CAL!";
+ var slide_one_title = "Join<br>Gaieties 2016!";
+ var slide_one_subtitle = "Be a part of history and<br>BEAT CAL!";
  var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
- var slide_one_button_present = false;
- var slide_one_button_text = "Sign Up For An Audition Slot!";
- var slide_one_button_link = "http://gaieties.stanford.edu";
+ var slide_one_button_present = true;
+ var slide_one_button_text = "Get Involved";
+ var slide_one_button_link = "https://www.facebook.com/events/1749507401932681/";
 
 // Slide two Information
 var slide_two_title = "Congrats to<br>Theory of Relativity";
