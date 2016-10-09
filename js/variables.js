@@ -7,12 +7,12 @@
  */
 
  // Slide one Information
- var slide_one_title = "Join<br>Gaieties 2016!";
- var slide_one_subtitle = "Be a part of history and<br>BEAT CAL!";
- var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
+ var slide_one_title = "Join<br>The Wild Party!";
+ var slide_one_subtitle = "We‘re looking for staff and designers!<br>Applications out now!";
+ var slide_one_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
  var slide_one_button_present = true;
- var slide_one_button_text = "Get Involved";
- var slide_one_button_link = "https://www.facebook.com/events/1749507401932681/";
+ var slide_one_button_text = "Learn More";
+ var slide_one_button_link = "https://www.facebook.com/ramshead/";
 
 // Slide two Information
 var slide_two_title = "Congrats to<br>Theory of Relativity";
