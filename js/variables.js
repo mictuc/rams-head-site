@@ -7,12 +7,12 @@
  */
 
  // Slide one Information
- var slide_one_title = "Join<br>The Wild Party!";
- var slide_one_subtitle = "We‘re looking for staff and designers!<br>Applications out now!";
- var slide_one_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
+ var slide_one_title = "COME SEE <i><br>GAIETIES OF FUTURE PAST</i>";
+ var slide_one_subtitle = "Don't miss this 105-year-old<br>Stanford tradition!";
+ var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
  var slide_one_button_present = true;
- var slide_one_button_text = "Learn More";
- var slide_one_button_link = "https://www.facebook.com/ramshead/";
+ var slide_one_button_text = "Buy Tickets";
+ var slide_one_button_link = "http://tinyurl.com/gaietiestickets";
 
 // Slide two Information
 var slide_two_title = "Congrats to<br>Theory of Relativity";
@@ -31,15 +31,19 @@ var slide_three_button_text = "See The Review";
 var slide_three_button_link = "http://www.stanforddaily.com/2016/04/07/theater-review-rent/";
 
 // Gaieties Information
-var gaieties_title = "Gaieties 2016";
+var gaieties_title = "Gaieties of Future Past";
 var gaieties_producer_name = "Alejandra Aguilar";
 var gaieties_producer_email = "aaguilar2@stanford.edu";
-var gaieties_description = "<strong>About The Show:</strong> "+
+var gaieties_description = "<strong>See the Show! Buy Your Tickets</strong> <a href=\"https://tinyurl.com/gaietiestickets\">Here</a>! Perfomances are November 16th, 17th, and 18th, at 8:00pm in Memorial Auditorium. "+
+"<br><br>"+
+"<strong>About The Show:</strong> "+
 "Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
 "Performed the week before Big Game against Cal, Gaieties is the ultimate celebration "+
 "of how proud, ridiculous, and clever we are as Stanford students. It's a Stanford "+
-"tradition not to be missed!<br><br><strong>Get Involved!</strong> If you want to help "+
-"out with Gaieties 2016, reach out to producer <a id=\"gaieties_producer\"></a>."
+"tradition not to be missed!<br><br><strong>Curious?</strong> Direct any questions "+
+"to producer <a id=\"gaieties_producer\"></a>.<br><br>"+
+"<strong>For More Information</strong> visit <a href=\"https://gaieties.stanford.edu\">gaieties.stanford.edu</a>"
+
 
 
 // OWOA Information
