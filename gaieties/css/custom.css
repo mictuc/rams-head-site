@@ -8,8 +8,8 @@
 }
 
 
-.spacing {
-    white-space: pre;
+.spacing{
+    white-space:pre; // or pre-wrap if you want wrapping to still work.
 }
 
 body {
