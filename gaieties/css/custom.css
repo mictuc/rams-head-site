@@ -8,20 +8,25 @@
 }
 
 
+.spacing {
+    white-space: pre;
+}
+
 body {
   color:#fff;
-  background-color:#2b003c;
+  background-color:#2B2B2B;
   font-family:'Arial';
 }
 
 .jumbotron {
-	background-color:#2b003c;
+	background-color:#2B2B2B;
 	padding-top:30px;
 	padding-bottom:0px;
 }
 
 img {
-	max-width:100%;
+	max-width:120%;
+    margin-left: -10%;
 }
 
 a {
@@ -43,7 +48,7 @@ a:hover, a:focus {
 
 h1 {
 	/*color: #FF8A6B !important;*/
-	color: #ffcd9a !important; 
+	color: #ffcd9a !important;
 	font-size:100px !important;
 }
 
@@ -64,6 +69,9 @@ ul.nav li.active a {
   background-color: #4d9b8d;
 }
 
+.nav-pills{
+    font-size: 18px
+}
 
 .nav-pills > li > a:hover,
 .nav-pills > li > a:focus {
