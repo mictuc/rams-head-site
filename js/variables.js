@@ -14,21 +14,21 @@
  var slide_one_button_text = "Buy Tickets";
  var slide_one_button_link = "http://tinyurl.com/gaietiestickets";
 
-// Slide two Information
-var slide_two_title = "Congrats to<br>Theory of Relativity";
-var slide_two_subtitle = "on a fabulous west coast premiere!";
-var slide_two_image = "includes/images/slider/theory_bg.jpg";
-var slide_two_button_present = true;
-var slide_two_button_text = "Read The Review";
-var slide_two_button_link = "http://stanfordartsreview.com/the-speed-of-life-a-review-of-rams-heads-theory-of-relativity/";
+ // Slide two Information
+ var slide_two_title = "Audition for <i><br>The Wild Party</i>";
+ var slide_two_subtitle = "";
+ var slide_two_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
+ var slide_two_button_present = true;
+ var slide_two_button_text = "Click here to sign up!";
+ var slide_two_button_link = "http://thewildparty2017.youcanbook.me";
 
 // Slide three Information
-var slide_three_title = "RENT";
-var slide_three_subtitle = "\"Rent reminds us to live for the moment\"<br>––Stanford Daily";
-var slide_three_image = "includes/images/slider/rent_bg.jpg";
+var slide_three_title = "Congrats to<br>Theory of Relativity";
+var slide_three_subtitle = "on a fabulous west coast premiere!";
+var slide_three_image = "includes/images/slider/theory_bg.jpg";
 var slide_three_button_present = true;
-var slide_three_button_text = "See The Review";
-var slide_three_button_link = "http://www.stanforddaily.com/2016/04/07/theater-review-rent/";
+var slide_three_button_text = "Read The Review";
+var slide_three_button_link = "http://stanfordartsreview.com/the-speed-of-life-a-review-of-rams-heads-theory-of-relativity/";
 
 // Gaieties Information
 var gaieties_title = "Gaieties of Future Past";
@@ -66,10 +66,10 @@ var spring_show_producer_email = "andykao@stanford.edu";
 var spring_show_description = "<strong>About The Show:</strong> "+
 "Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan "+
 "apartment. After the colorful arrival of a slew of guests living life on the edge, "+
-"Queenie's wandering eyes land on a striking man named Black. As the decadence is "+
+"Queenie's eyes land on a striking man named Black. As the decadence is "+
 "reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent "+
 "rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
-"gun gets fired, but who's been shot?<br><br><strong>Get Involved!</strong> If you want to help "+
+"gun gets fired, but who's been shot?<br><br><strong>Auditioning Now!</strong> Sign up at: <a href=\"thewildparty2017.youcanbook.me\">thewildparty2017.youcanbook.me</a><br><br><strong>Get Involved!</strong> If you want to help "+
 "out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>."+
 "<br>Most staff appointing will occur in fall 2016."
 
