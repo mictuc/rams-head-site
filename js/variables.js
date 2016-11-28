@@ -7,27 +7,27 @@
  */
 
  // Slide one Information
- var slide_one_title = "COME SEE <i><br>GAIETIES OF FUTURE PAST</i>";
- var slide_one_subtitle = "Don't miss this 105-year-old<br>Stanford tradition!";
- var slide_one_image = "includes/images/slider/gaieties16_bg.jpg";
+ var slide_one_title = "Audition for <i><br>The Wild Party</i>!";
+ var slide_one_subtitle = "We're looking for actors, singers, and dancers! All experience levels welcome!";
+ var slide_one_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
  var slide_one_button_present = true;
- var slide_one_button_text = "Buy Tickets";
- var slide_one_button_link = "http://tinyurl.com/gaietiestickets";
+ var slide_one_button_text = "Sign Up";
+ var slide_one_button_link = "http://thewildparty2017.youcanbook.me";
 
  // Slide two Information
- var slide_two_title = "Audition for <i><br>The Wild Party</i>";
- var slide_two_subtitle = "";
- var slide_two_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
+ var slide_two_title = "Gaieties 2016: Gaieties of Future Past";
+ var slide_two_subtitle = "Congratulations to everyone on a great run!";
+ var slide_two_image = "includes/images/slider/gaieties-16-post.jpg";
  var slide_two_button_present = true;
- var slide_two_button_text = "Click here to sign up!";
- var slide_two_button_link = "http://thewildparty2017.youcanbook.me";
+ var slide_two_button_text = "Read the Review";
+ var slide_two_button_link = "http://stanfordartsreview.com/gaieties-2016/";
 
 // Slide three Information
 var slide_three_title = "Congrats to<br>Theory of Relativity";
 var slide_three_subtitle = "on a fabulous west coast premiere!";
 var slide_three_image = "includes/images/slider/theory_bg.jpg";
 var slide_three_button_present = true;
-var slide_three_button_text = "Read The Review";
+var slide_three_button_text = "Read the Review";
 var slide_three_button_link = "http://stanfordartsreview.com/the-speed-of-life-a-review-of-rams-heads-theory-of-relativity/";
 
 // Gaieties Information
