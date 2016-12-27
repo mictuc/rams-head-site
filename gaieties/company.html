@@ -31,9 +31,7 @@
      <li role="presentation"><a href="about.html">About</a></li>
      <li role="presentation"><a href="tickets.html">Tickets</a></li>
      <li role="presentation" class="active"><a href="#">Company</a></li>
-<!--      <li role="presentation"><a href="openxchange.html">OpenXChange</a></li>
- --><!--      <li role="presentation"><a href="sponsors.html">Sponsors</a></li>
- -->     <li role="presentation"><a href="contact.html">Contact</a></li>
+     <li role="presentation"><a href="contact.html">Contact</a></li>
      </ul>
      </nav>
      </div>
@@ -142,16 +140,18 @@
      </p>
      </div>
 
-<!-- Music -->
-
      <footer class="footer">
      <div class="centered">
-     <p>&copy; <a href="http://ramshead.stanford.edu">Ram's Head Theatrical Society</a> 2016</p>
-<!--      <p> RENT is presented through special arrangement with Music Theatre International (MTI). All authorized performance materials are also supplied by MTI. 421 West 54th Street, New York, NY 10019. <br>Phone: 212-541-4684 Fax: 212-397-4684. <a href="http://www.MTIShows.com">www.MTIShows.com</a></p>
- -->     </div>
+         <p>&copy; <a href="http://ramshead.stanford.edu">Ram's Head Theatrical Society</a> <c id="copyright_year"></c></p>
+     </div>
      </footer>
 
      </div> <!-- /container -->
+
+     <script src="../js/variables.js"></script>
+     <script>
+         document.getElementById('copyright_year').innerHTML = copyright_year;
+     </script>
 
  </body>
 </html>
