@@ -42,9 +42,9 @@
         <div class="col-lg-12 centered">
         <br><br>
         <p class="lead" id="owoa_ticket_info"><font size = 6></font><br></p>
-        <p class="lead"><font size = 5>Performances are <c id="owoa_performance_dates"></c><br>at Piggott Theater in Memorial Auditorium</font></p>
+        <p class="lead"><font size = 5>Performances are <c id="owoa_performance_dates"></c><br>at <c id="owoa_venue"></c></font></p>
           <p class="lead" id="owoa_ticket_costs"></p>
-          <p class="lead">Seating is unreserved. </p>
+          <p class="lead" id="owoa_extra_ticket_info"></p>
         </div>
       </div>
 
@@ -59,7 +59,9 @@
     <script>
         document.getElementById('owoa_ticket_info').innerHTML = owoa_ticket_info;
         document.getElementById('owoa_performance_dates').innerHTML = owoa_performance_dates;
+        document.getElementById('owoa_venue').innerHTML = owoa_venue;
         document.getElementById('owoa_ticket_costs').innerHTML = owoa_ticket_costs;
+        document.getElementById('owoa_extra_ticket_info').innerHTML = owoa_extra_ticket_info;
         document.getElementById('copyright_year').innerHTML = copyright_year;
     </script>
 
