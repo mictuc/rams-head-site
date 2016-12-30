@@ -73,6 +73,51 @@ var owoa_ticket_info = "Tickets will be available for purchase online and in Whi
 var owoa_extra_ticket_info = "Seating is unreserved.";
 var owoa_background_color = 000;
 var owoa_link_color = 000;
+var owoa_company = ""+
+"<div class=\"col-sm-5 col-xs-6 left\">"+
+    "<h3>Production Staff</h3>"+
+    "Meley Gebresellassie – Producer<br>"+
+    "Kayci Lacob – Assistant Producer<br>"+
+    "Robin Yoo – Assistant Producer<br>"+
+    "CJ Paige – Production Stage Manager<br>"+
+
+    "<h3>Design/Technical Staff</h3>"+
+    "Allen Wehner – Technical Director<br>"+
+    "Ryan Gonzalez – Lighting Designer<br>"+
+    "Scott Colby – Associate Lighting Designer<br>"+
+    "Julia Rosedale – Sound Designer<br>"+
+    "Garrick Fernandez – Set Designer<br>"+
+    "Kyle Robinson – Costume Designer<br>"+
+    "Som-Mai Nguyen – Graphic Designer<br>"+
+"</div>"+
+"<div class=\"col-sm-7 col-xs-6 right\">"+
+    "<h3>P.S. Please Send Money</h3>"+
+    "Noah Bennett – Director<br>"+
+    "Alex Szpetycki – Stage Manager<br>"+
+    "Olivia Popp – Playwright<br>"+
+    "Ali Rosenthal – Melissa<br>"+
+    "Carter Burr-Kirven – George<br>"+
+    "Dan Holland – Boris<br>"+
+    "Valerie Rincon – Felicia<br>"+
+
+    "<h3>Will</h3>"+
+    "Isaac Goldstein – Director<br>"+
+    "Annie Hu – Stage Manager<br>"+
+    "Steve Rathje – Playwright<br>"+
+    "Kiko Ilagan – Will<br>"+
+    "Mo Asebiomo – Allie<br>"+
+
+    "<h3>On the Detection of Dark Matter</h3>"+
+    "Mady Weiss – Director<br>"+
+    "Danielle Stagger – Stage Manager<br>"+
+    "Fiona Maguire – Playwright<br>"+
+    "Evie Johnson – Grace<br>"+
+    "Brian Morris – Nick<br>"+
+    "Max McCallister – Mike<br>"+
+    "HB Groenendel – Young Grace<br>"+
+    "Alli Cruz – Young Gwen<br>"+
+"</div>";
+
 
 
 // Spring Show Information
