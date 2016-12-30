@@ -39,21 +39,17 @@
         <h3 class="text-muted"></h3>
       </div>
 
-      <div class="row marketing">
-          <img src="Images/gaieties.jpg" style="width:120%">
-      </div>
+      <div class="row marketing" id="gaieties_cover_photo"></div>
 
- <div class="row marketing">
+      <div class="row marketing">
         <div class="col-lg-12 centered">
-        <h1>Gaieties of Future Past</h1>
-          <p>
-          <h2>November 16th, 17th, and 18th<br>Memorial Auditorium</h2>
-          <p>
-            Gaieties is an annual, student-written musical extravaganza dating back to 1911. Performed the week before Big Game against Cal, Gaieties is the ultimate celebration of how proud, ridiculous, and clever we are as Stanford students. Don’t miss this 105-year-old Stanford tradition!</p>
-          <br><font size = 4><b>$10 Students | $15 Faculty/Staff | $20 General</font><br><br>
-          <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
+          <h1 id="gaieties_title"></h1>
+          <h2 id="gaieties_performance_dates"></h2>
+          <h2 id="gaieties_venue"></h2>
+          <br>
+          <font size = 4 id="gaieties_ticket_costs"><b></font>
+          <br><br>
+          <div class="map" id="gaieties_map"></div>
           <br>
         </div>
       </div>
@@ -67,6 +63,12 @@
     </div> <!-- /container -->
     <script src="https://ramshead.stanford.edu/js/variables.js"></script>
     <script>
+        document.getElementById('gaieties_cover_photo').innerHTML = gaieties_cover_photo;
+        document.getElementById('gaieties_title').innerHTML = gaieties_title;
+        document.getElementById('gaieties_performance_dates').innerHTML = gaieties_performance_dates;
+        document.getElementById('gaieties_venue').innerHTML = gaieties_venue;
+        document.getElementById('gaieties_ticket_costs').innerHTML = gaieties_ticket_costs;
+        document.getElementById('gaieties_map').innerHTML = gaieties_map;
         document.getElementById('copyright_year').innerHTML = copyright_year;
     </script>
 
