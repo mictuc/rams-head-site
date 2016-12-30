@@ -47,7 +47,7 @@ var gaieties_performance_dates = "November 16th, 17th, and 18th, at 8:00pm";
 var gaieties_venue = "Memorial Auditorium";
 var gaieties_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var gaieties_ticket_costs = "$10 Students | $15 Faculty/Staff | $20 General";
-var gaieties_ticket_info = "";
+var gaieties_ticket_info = "Tickets are sold out!";
 var owoa_extra_ticket_info = "";
 var gaieties_background_color = 000;
 var gaieties_link_color = 000;
