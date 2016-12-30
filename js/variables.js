@@ -34,29 +34,37 @@ var slide_three_button_link = "http://stanfordartsreview.com/the-speed-of-life-a
 var gaieties_title = "Gaieties of Future Past";
 var gaieties_producer_name = "Alejandra Aguilar";
 var gaieties_producer_email = "aaguilar2@stanford.edu";
-var gaieties_description = "<strong>See the Show! Buy Your Tickets</strong> <a href=\"https://tinyurl.com/gaietiestickets\">Here</a>! Perfomances are November 16th, 17th, and 18th, at 8:00pm in Memorial Auditorium. "+
-"<br><br>"+
-"<strong>About The Show:</strong> "+
-"Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
+var gaieties_synopsis = "Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
 "Performed the week before Big Game against Cal, Gaieties is the ultimate celebration "+
 "of how proud, ridiculous, and clever we are as Stanford students. It's a Stanford "+
-"tradition not to be missed!<br><br><strong>Curious?</strong> Direct any questions "+
-"to producer <a id=\"gaieties_producer\"></a>.<br><br>"+
-"<strong>For More Information</strong> visit <a href=\"https://gaieties.stanford.edu\">gaieties.stanford.edu</a>"
-
-
+"tradition not to be missed!";
+var gaieties_description = "<strong>Read the <a href=\"http://stanfordartsreview.com/gaieties-2016/\">Review</a>!</strong>"+
+"<br><br><strong>About The Show:</strong> "+gaieties_synopsis+
+"<br><br><strong>Curious?</strong> Direct any questions to producer <a id=\"gaieties_producer\"></a>.<br><br>"+
+"<strong>For More Information</strong> visit <a href=\"https://gaieties.stanford.edu\">gaieties.stanford.edu</a>";
+var gaieties_performance_dates = "November 16th, 17th, and 18th, at 8:00pm";
+var gaieties_ticket_costs = "";
+var gaieties_ticket_info = "";
+var gaieties_background_color = 000;
+var gaieties_link_color = 000;
 
 // OWOA Information
 var owoa_title = "Original Winter One Acts 2017";
 var owoa_producer_name = "Meley Gebresellassie";
 var owoa_producer_email = "meleyg@stanford.edu";
-var owoa_description = "<strong>About The Show:</strong> "+
-"The Original Winter One Acts are a beloved annual Stanford tradition dating back to "+
-"the 1980s. Three one act plays, all written, directed, and performed by students, "+
-"make their world premieres at Stanford and proudly showcase student talent in writing "+
-"for the stage.<br><br><strong>Get Involved!</strong> If you want to help out with "+
+var owoa_synopsis = "The Original Winter One Acts are a beloved annual Stanford "+
+"tradition dating back to the 1980s. Three one act plays, all written, directed, "+
+"and performed by students, make their world premieres at Stanford and proudly "+
+"showcase student talent in writing for the stage.";
+var owoa_description = "<strong>About The Show:</strong> "+owoa_synopsis+
+"<br><br><strong>Get Involved!</strong> If you want to help out with "+
 "OWOA 2016, reach out to producer <a id=\"owoa_producer\"></a>.<br>Play selection and "+
-"other staff appointing will occur in fall 2016."
+"other staff appointing will occur in fall 2016.";
+var owoa_performance_dates = "January 19, 20, 21 at 8pm";
+var owoa_ticket_costs = "$5 Students | $10 General";
+var owoa_ticket_info = "Tickets will be available for purchase online and in White Plaza during week 2 of Winter Quarter.";
+var owoa_background_color = 000;
+var owoa_link_color = 000;
 
 
 // Spring Show Information
@@ -122,5 +130,6 @@ var alumni_board =  [
 
 // Other Information
 var season_years = "2016-2017";
+var about_rams_head = "Founded in 1911, Ram's Head Theatrical Society is Stanford's oldest and largest theatrical organization. Each year the group provides acting, directing, designing, and play writing opportunities to over 120 students, and its productions are attended by more than 6,000 people annually. Annual productions include campus traditions such as Gaieties, the Original Winter One Acts, and a full scale Broadway musical. For more info about Ram's Head, visit <a href=\"http://ramshead.stanford.edu\">our website</a>."
 var mailing_address = "Holly Dayton<br>P.O. Box 12294<br>Stanford, CA, 94305";
 var copyright_year = "2016";

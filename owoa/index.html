@@ -43,17 +43,17 @@
           <!-- <img src="Images/owoa2016.jpg" style="width:120%"> -->
       </div>
 
- <div class="row marketing">
+      <div class="row marketing">
         <div class="col-lg-12 centered">
-        <h1>Original Winter One Acts 2016</h1>
-          <p>
-          <h2>January 19, 20, 21 at 8pm<br>Pigott Theater, Memorial Auditorium</h2>
-          <p>
-
-          <br><font size = 4><b>$5 Students | $10 General</font><br><br>
-          <div class="map">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3332139111567!2d-122.16891158469221!3d37.42923237982379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb29d01e2ba3%3A0x14ddc91bdea91b1d!2sPigott+Theater!5e0!3m2!1sen!2sus!4v1482869313726" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>          </div>
-          <br>
+            <h1 id="owoa_title"></h1>
+            <h2 id="owoa_performance_dates"></h2>
+            <h2>Pigott Theater, Memorial Auditorium</h2>
+            <br>
+            <font size = 4 id="owoa_ticket_costs"><b></font>
+            <br><br>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3332139111567!2d-122.16891158469221!3d37.42923237982379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb29d01e2ba3%3A0x14ddc91bdea91b1d!2sPigott+Theater!5e0!3m2!1sen!2sus!4v1482869313726" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
         </div>
       </div>
 
@@ -66,6 +66,9 @@
     </div>
     <script src="https://ramshead.stanford.edu/js/variables.js"></script>
     <script>
+        document.getElementById('owoa_title').innerHTML = owoa_title;
+        document.getElementById('owoa_performance_dates').innerHTML = owoa_performance_dates;
+        document.getElementById('owoa_ticket_costs').innerHTML = owoa_ticket_costs;
         document.getElementById('copyright_year').innerHTML = copyright_year;
     </script>
 
