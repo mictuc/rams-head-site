@@ -87,7 +87,7 @@
     <section>
         <div class="container">
             <div class="left wow fadeInDown">
-                <p class="lead">Founded in 1911, Ram's Head Theatrical Society is Stanford's oldest and largest theatrical organization. Each year the group provides acting, directing, designing, and play writing opportunities to over 120 students, and its productions are attended by more than 6,000 people. We are a campus-wide, student-run theatrical society. Productions produced annually include campus traditions such as Gaieties, Original Winter One Acts, and a full-scale musical.</p>
+                <p class="lead" id="about_rams_head"></p>
                 <h2>Purpose</h2>
                 <p class="lead">The objectives of Ram's Head are to:</p>
                 <p class="lead">&#8212; Present productions of professional quality within the constraints of the University environment</br> &#8212; Foster the production of original works<br> &#8212; Promote social activities and camaraderie among its members</br> &#8212; Assure the financial stability and continued growth of the organization</p>
@@ -123,6 +123,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/variables.js"></script>
     <script>
+        document.getElementById('about_rams_head').innerHTML = about_rams_head;
         document.getElementById('copyright_year').innerHTML = copyright_year;
     </script>
 
