@@ -185,4 +185,4 @@ var alumni_board =  [
 var season_years = "2016-2017";
 var about_rams_head = "Founded in 1911, Ram's Head Theatrical Society is Stanford's oldest and largest theatrical organization. Each year the group provides acting, directing, designing, and play writing opportunities to over 120 students, and its productions are attended by more than 6,000 people annually. Annual productions include campus traditions such as Gaieties, the Original Winter One Acts, and a full scale Broadway musical. For more info about Ram's Head, visit <a href=\"http://ramshead.stanford.edu\">our website</a>."
 var mailing_address = "Holly Dayton<br>P.O. Box 12294<br>Stanford, CA, 94305";
-var copyright_year = "2016";
+var copyright_year = "2017";
