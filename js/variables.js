@@ -64,7 +64,7 @@ var owoa_description = "<strong>About The Show:</strong> "+owoa_synopsis+
 "<br><br><strong>Get Involved!</strong> If you want to help out with "+
 "OWOA 2016, reach out to producer <a id=\"owoa_producer\"></a>.<br>Play selection and "+
 "other staff appointing will occur in fall 2016.";
-var owoa_cover_photo = "";//"<img src=\"Images/gaieties.jpg\" style=\"width:120%\">";
+var owoa_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/owoa.jpg\" style=\"width:120%\">";
 var owoa_performance_dates = "January 19, 20, 21 at 8pm";
 var owoa_venue = "Pigott Theater, Memorial Auditorium";
 var owoa_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3332139111567!2d-122.16891158469221!3d37.42923237982379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb29d01e2ba3%3A0x14ddc91bdea91b1d!2sPigott+Theater!5e0!3m2!1sen!2sus!4v1482869313726\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
