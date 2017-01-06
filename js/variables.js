@@ -7,12 +7,12 @@
  */
 
  // Slide one Information
- var slide_one_title = "Audition for <i><br>The Wild Party</i>!";
- var slide_one_subtitle = "We're looking for actors, singers, and dancers! All experience levels welcome!";
- var slide_one_image = "includes/images/slider/The-Wild-Party-Web-Banner.png";
+ var slide_one_title = "Get Ready for <i><br>OWOA 2017</i>!";
+ var slide_one_subtitle = "Tickets available soon!";
+ var slide_one_image = "includes/images/slider/owoa_slider.jpg";
  var slide_one_button_present = true;
- var slide_one_button_text = "Sign Up";
- var slide_one_button_link = "http://thewildparty2017.youcanbook.me";
+ var slide_one_button_text = "Learn More!";
+ var slide_one_button_link = "http://owoa.stanford.edu";
 
  // Slide two Information
  var slide_two_title = "Gaieties 2016: Gaieties of Future Past";
@@ -61,9 +61,8 @@ var owoa_synopsis = "The Original Winter One Acts are a beloved annual Stanford 
 "and performed by students, make their world premieres at Stanford and proudly "+
 "showcase student talent in writing for the stage.";
 var owoa_description = "<strong>About The Show:</strong> "+owoa_synopsis+
-"<br><br><strong>Get Involved!</strong> If you want to help out with "+
-"OWOA 2016, reach out to producer <a id=\"owoa_producer\"></a>.<br>Play selection and "+
-"other staff appointing will occur in fall 2016.";
+"<br><br><strong>Get Ready!</strong> Tickets will be available week 2 online and in white plaza! "+
+"Learn more at <a href=\"https://owoa.stanford.edu\">owoa.stanford.edu</a>!<br><br><strong>Questions?</strong> Reach out to producer <a id=\"owoa_producer\"></a>.";
 var owoa_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/owoa.jpg\" style=\"width:120%\">";
 var owoa_performance_dates = "January 19, 20, 21 at 8pm";
 var owoa_venue = "Pigott Theater, Memorial Auditorium";
@@ -130,9 +129,8 @@ var spring_show_description = "<strong>About The Show:</strong> "+
 "Queenie's eyes land on a striking man named Black. As the decadence is "+
 "reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent "+
 "rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
-"gun gets fired, but who's been shot?<br><br><strong>Auditioning Now!</strong> Sign up at: <a href=\"thewildparty2017.youcanbook.me\">thewildparty2017.youcanbook.me</a><br><br><strong>Get Involved!</strong> If you want to help "+
-"out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>."+
-"<br>Most staff appointing will occur in fall 2016."
+"gun gets fired, but who's been shot?<br><br><strong>Get Involved!</strong> If you want to help "+
+"out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>.";
 
 
 // Fourth Show Information, if fourth_show_this_season, it will add 4th show info to current season page
