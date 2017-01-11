@@ -147,8 +147,8 @@ var ep_name = "Holly Dayton";
 var ep_email = "daytonh@stanford.edu";
 var board_members = [
                     "Charlotte Dubach-Reinhold",
-                    "Victor Ragsdale",
-                    "Stephanie Sapp (Fall)",
+                    "Victor Ragsdale (Fall)",
+                    "Stephanie Sapp",
                     "James Sherwood",
                     "Michael Tucker (Winter, Spring)",
                     "Alison Valentine"
