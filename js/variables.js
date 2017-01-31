@@ -148,8 +148,9 @@ var ep_email = "daytonh@stanford.edu";
 var board_members = [
                     "Charlotte Dubach-Reinhold",
                     "Victor Ragsdale (Fall)",
-                    "Stephanie Sapp",
+                    "Stephanie Sapp(Fall)",
                     "James Sherwood",
+                    "Jamie Tippett (Winter, Spring)",
                     "Michael Tucker (Winter, Spring)",
                     "Alison Valentine"
                     ];
@@ -167,14 +168,10 @@ var alumni_board_president_email = "m@wilsonstuart.com";
 var alumni_board =  [
                     "<a id=\"alumni_board_president\"></a>, '94, MA '96, President",
                     "Raphe Beck, '92",
-                    "Joe Gasperetti '13,",
-                    "Dan Goldman, '94, MS '95",
                     "Vince Foecke, '81, MS '82",
-                    "Monica Miklas, '09",
                     "Heather McAvoy, '83",
-                    "Michael Rooney, BS/MS '11",
+                    "John Mannion '89",
                     "Alicia Sanders, '01",
-                    "Liz Stark, '12",
                     "Erik Stuart, PhD '00",
                     "Adam Tobin, '93",
                     "Debbie Wicks La Puma, '91"
