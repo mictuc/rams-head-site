@@ -163,6 +163,7 @@ var webmaster = "Garrick Fernandez";
 var publicity_manager = "";
 var historian_name = "Holly Dayton";
 var historian_email = "daytonh@stanford.edu";
+var cord_members = "Mo Asembiomo ('20), Kyle Robinson ('18), Danielle Stagger ('19), Muse Lee ('19), Trey Hale ('18), and Robin Yoo ('18)";
 var alumni_board_president_name = "Melissa Wilson";
 var alumni_board_president_email = "m@wilsonstuart.com";
 var alumni_board =  [
