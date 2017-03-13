@@ -1,9 +1,9 @@
 /*
- * This file contains the constants that will appear on the Ram's Head site.
+ * This file contains the constants that will appear on all Ram's Head sites.
  * Please only edit necessary changes.
  *
  * Michael Tucker 8/31/16 mictuc@stanford.edu, 609-672-9724
- * (c) Ram's Head Theatrical Society 2016
+ * (c) Ram's Head Theatrical Society 2017
  */
 
  // Slide one Information
@@ -44,7 +44,7 @@ var gaieties_description = "<strong>Read the <a href=\"http://stanfordartsreview
 "<strong>For More Information</strong> visit <a href=\"https://gaieties.stanford.edu\">gaieties.stanford.edu</a>";
 var gaieties_cover_photo = "";//<img src=\"Images/gaieties.jpg\" style=\"width:120%\">";
 var gaieties_performance_dates = "November 16th, 17th, and 18th, at 8:00pm";
-var gaieties_venue = "Memorial Auditorium";
+var gaieties_venue = "Memorial Auditorium | Stanford Univerity";
 var gaieties_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var gaieties_ticket_costs = "$10 Students | $15 Faculty/Staff | $20 General";
 var gaieties_ticket_info = "Tickets are sold out!";
@@ -124,23 +124,37 @@ var owoa_company = ""+
 var spring_show_title = "The Wild Party";
 var spring_show_producer_name = "Andy Kao";
 var spring_show_producer_email = "andykao@stanford.edu";
-var spring_show_description = "<strong>About The Show:</strong> "+
-"Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan "+
+var spring_show_synopsis = "Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan "+
 "apartment. After the colorful arrival of a slew of guests living life on the edge, "+
 "Queenie's eyes land on a striking man named Black. As the decadence is "+
 "reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent "+
 "rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
-"gun gets fired, but who's been shot?<br><br><strong>Get Involved!</strong> If you want to help "+
+"gun gets fired, but who's been shot?";
+var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis+
+"<br><br><strong>Get Involved!</strong> If you want to help "+
 "out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>.";
+var spring_show_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/spring_show.jpg\" style=\"width:120%\">";
+var spring_show_performance_dates = "April 14, 15, 20, 21, 22 at 8pm";
+var spring_show_venue = "Memorial Auditorium | Stanford Univeristy";
+var spring_show_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
+var spring_show_ticket_costs = "$10 Students | $25 General";
+var spring_show_ticket_info = "Tickets will be availble online and in white plaza during weeks 1,2,3 of Spring quarter";
+var spring_show_extra_ticket_info = "Seating is unreserved.";
+var spring_show_background_color = 000;
+var spring_show_link_color = 000;
+var spring_show_details = "";
+var spring_show_company = "";
 
 
 // Fourth Show Information, if fourth_show_this_season, it will add 4th show info to current season page
-var fourth_show_this_season = false;
-var fourth_show_title = "";
-var fourth_show_producer_name = "";
-var fourth_show_producer_email = "";
-var fourth_show_description = "";
-
+var fourth_show_this_season = true;
+var fourth_show_title = "Disrupt!";
+var fourth_show_producer_name = "Junie Burns";
+var fourth_show_producer_email = "jjburns@stanford.edu";
+var fourth_show_synopsis = "Disrupt! is a satirical take on life in the Silicon Valley with a feminist edge. It begins in a quintessential artisanal coffee shop. From there, absurdity ensues: VCs, angel investors, the ghosts of Hewlett and Packard, a patent troll, and more.";
+var fourth_show_description = "<strong>About The Show:</strong> "+fourth_show_synopsis+
+"<br><br><strong>Get Involved!</strong> If you want to help "+
+"out with Disrupt! reach out to producer <a id=\"spring_show_producer\"></a>.";
 
 // Leadership Information
 var ep_name = "Holly Dayton";
