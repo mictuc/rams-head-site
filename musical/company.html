@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="">
+ <meta name="author" content="">
+ <link rel="icon" href="../../favicon.ico">
+
+ <title>Company | <c id="spring_show_title"></c></title>
+
+ <!-- Bootstrap core CSS -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+
+ <!-- Custom styles for this template -->
+ <link href="css/jumbotron-narrow.css" rel="stylesheet">
+
+ <!-- Custom styles for this template -->
+ <link href="css/custom.css" rel="stylesheet">
+ </head>
+
+ <body>
+
+     <div class="container">
+     <div class="header">
+     <div class="span12 centered-pills">
+     <nav>
+     <ul class="nav nav-pills">
+     <li role="presentation"><a href="index.html">Home</a></li>
+     <li role="presentation"><a href="about.html">About</a></li>
+     <li role="presentation"><a href="tickets.html">Tickets</a></li>
+     <li role="presentation" class="active"><a href="#">Company</a></li>
+     <li role="presentation"><a href="contact.html">Contact</a></li>
+     </ul>
+     </nav>
+     </div>
+     <h3 class="text-muted"></h3>
+     </div>
+
+     <div class="jumbotron">
+         <h2>Company</h2>
+     </div>
+
+     <div class="row marketing" id="spring_show_company"></div>
+
+     <footer class="footer">
+         <div class="centered">
+             <p>&copy; <a href="http://ramshead.stanford.edu">Ram's Head Theatrical Society</a> <c id="copyright_year"></c></p>
+         </div>
+     </footer>
+
+     </div> <!-- /container -->
+
+     <script src="https://ramshead.stanford.edu/js/variables.js"></script>
+     <script>
+        document.getElementById('spring_show_title').innerHTML = spring_show_title;
+        document.getElementById('spring_show_company').innerHTML = spring_show_company;
+         document.getElementById('copyright_year').innerHTML = copyright_year;
+     </script>
+
+ </body>
+</html>
