@@ -137,7 +137,7 @@ var spring_show_ticket_info = "Tickets are availble <a href=\"https://red.vendin
 var spring_show_extra_ticket_info = "Seating is unreserved.";
 var spring_show_background_color = 000;
 var spring_show_link_color = 000;
-var spring_show_details = "The wild party contains themes of Sexual assault, violence, suicide, and drug/alcohol abuse";
+var spring_show_details = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!<br><br>The wild party contains themes of Sexual assault, violence, suicide, and drug/alcohol abuse";
 var spring_show_company = ""+
 "<div class=\"col-sm-6 col-xs-6 left\">"+
     "<h3>Production Staff</h3>"+
