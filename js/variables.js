@@ -126,8 +126,8 @@ var spring_show_producer_name = "Andy Kao";
 var spring_show_producer_email = "andykao@stanford.edu";
 var spring_show_synopsis = "When glamorous and frustrated couple Queenie and Burrs get into a terrible fight, they decide to throw a wild party to defuse the tension. Things get out of control quickly when the beautiful Kate and her date, the inscrutable Black, arrive on the scene. Inspired by the 1928 poem by Joseph Moncure March, our production of Andrew Lippa's The Wild Party is intense, jazzy, dark, and thrilling.";
 var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis+
-"<br><br><strong>Get Involved!</strong> If you want to help "+
-"out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>.";
+"<br><br><strong>Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!</strong> If you want to help "+
+"<br><br>Learn more at <a href=\"https://musical.stanford.edu\">musical.stanford.edu</a>!<br><br><strong>Questions?</strong> Reach out to producer <a id=\"spring_show_producer\"></a>.";
 var spring_show_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/spring_show.jpg\" style=\"width:120%\">";
 var spring_show_performance_dates = "April 14, 15, 20, 21, 22 2017 at 8pm";
 var spring_show_venue = "Memorial Auditorium, Stanford Univeristy";
@@ -139,7 +139,7 @@ var spring_show_background_color = 000;
 var spring_show_link_color = 000;
 var spring_show_details = "The wild party contains themes of Sexual assault, violence, suicide, and drug/alcohol abuse";
 var spring_show_company = ""+
-"<div class=\"col-sm-5 col-xs-6 left\">"+
+"<div class=\"col-sm-6 col-xs-6 left\">"+
     "<h3>Production Staff</h3>"+
     "Andy Kao – Producer<br>"+
     "CJ Paige – Assistant Producer<br>"+
@@ -168,7 +168,7 @@ var spring_show_company = ""+
     "Carlos Fresnillo – Assistant Technical Director<br>"+
     "Allen Wehner – Assistant Technical Director<br>"+
     "Scott Colby – Assistant Technical Director<br>"+
-    "Charlotte Dubach – Reinhold – Scenic Painter<br>"+
+    "Charlotte Dubach-Reinhold – Scenic Painter<br>"+
     "Stephen Hitchcock – Lighting/Projection Designer<br>"+
     "Justin Ruggiero – Associate Lighting Designer<br>"+
     "Austin Critchlow – Assistant Lighting Designer<br>"+
@@ -187,7 +187,7 @@ var spring_show_company = ""+
     "Som-Mai Nguyen – Graphic Designer"+
 
 "</div>"+
-"<div class=\"col-sm-7 col-xs-6 right\">"+
+"<div class=\"col-sm-6 col-xs-6 right\">"+
     "<h3>Cast</h3>"+
     "Arjun Sheth-Sam<br>"+
     "Austin Zambito-Valente – Oscar<br>"+
