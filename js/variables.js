@@ -124,26 +124,103 @@ var owoa_company = ""+
 var spring_show_title = "The Wild Party";
 var spring_show_producer_name = "Andy Kao";
 var spring_show_producer_email = "andykao@stanford.edu";
-var spring_show_synopsis = "Lovers Queenie and Burrs decide to throw the party to end all parties in their Manhattan "+
-"apartment. After the colorful arrival of a slew of guests living life on the edge, "+
-"Queenie's eyes land on a striking man named Black. As the decadence is "+
-"reaching a climax, so is Burrs' jealousy which erupts and sends him into a violent "+
-"rage. Gun in hand and inhibitions abandoned Burrs turns on Queenie and Black. The "+
-"gun gets fired, but who's been shot?";
+var spring_show_synopsis = "When glamorous and frustrated couple Queenie and Burrs get into a terrible fight, they decide to throw a wild party to defuse the tension. Things get out of control quickly when the beautiful Kate and her date, the inscrutable Black, arrive on the scene. Inspired by the 1928 poem by Joseph Moncure March, our production of Andrew Lippa's The Wild Party is intense, jazzy, dark, and thrilling.";
 var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis+
 "<br><br><strong>Get Involved!</strong> If you want to help "+
 "out with The Wild Party, reach out to producer <a id=\"spring_show_producer\"></a>.";
 var spring_show_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/spring_show.jpg\" style=\"width:120%\">";
-var spring_show_performance_dates = "April 14, 15, 20, 21, 22 at 8pm";
-var spring_show_venue = "Memorial Auditorium | Stanford Univeristy";
+var spring_show_performance_dates = "April 14, 15, 20, 21, 22 2017 at 8pm";
+var spring_show_venue = "Memorial Auditorium, Stanford Univeristy";
 var spring_show_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
-var spring_show_ticket_costs = "$10 Students | $25 General";
-var spring_show_ticket_info = "Tickets will be availble online and in white plaza during weeks 1,2,3 of Spring quarter";
+var spring_show_ticket_costs = "Students $10 | Faculty & Staff $20 | Young Alumni ('13 or younger) $20 | General $25";
+var spring_show_ticket_info = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>! You can also buy tickets in White Plaza during week 2 of Spring Quarter.";
 var spring_show_extra_ticket_info = "Seating is unreserved.";
 var spring_show_background_color = 000;
 var spring_show_link_color = 000;
-var spring_show_details = "";
-var spring_show_company = "";
+var spring_show_details = "The wild party contains themes of Sexual assault, violence, suicide, and drug/alcohol abuse";
+var spring_show_company = ""+
+"<div class=\"col-sm-5 col-xs-6 left\">"+
+    "<h3>Production Staff</h3>"+
+    "Andy Kao – Producer<br>"+
+    "CJ Paige – Assistant Producer<br>"+
+    "Michela Rodriguez – Assistant Producer<br>"+
+    "Annabel Ostrow – Assistant Producer<br>"+
+    "Siena Streiber – Co-Social Chair<br>"+
+    "Zoë Sonnenberg – Co-Social Chair<br>"+
+    "James Sherwood – Production Manager<br>"+
+
+    "<h3>Rehearsal Staff</h3>"+
+    "Nathan Large – Director<br>"+
+    "Claire Robinson – Assistant Director<br>"+
+    "Danielle Stagger – Assistant Director<br>"+
+    "Hannah Miller – Stage Manager<br>"+
+    "Alex Szeptycki – Assistant Stage Manager<br>"+
+    "Matt Bernstein – Assistant Stage Manager<br>"+
+    "Louis Lagalante – Vocal Director<br>"+
+    "Paul Gregg – Music Director<br>"+
+    "Momo Hoshi – Assistant Music Director<br>"+
+    "Jared Bitz – Assistant Music Director<br>"+
+    "Trey Hale – Choreographer<br>"+
+    "Lila Thulin – Assistant Choreographer<br>"+
+
+    "<h3>Technical/Design Staff</h3>"+
+    "Robin Yoo – Technical Director<br>"+
+    "Carlos Fresnillo – Assistant Technical Director<br>"+
+    "Allen Wehner – Assistant Technical Director<br>"+
+    "Scott Colby – Assistant Technical Director<br>"+
+    "Charlotte Dubach – Reinhold – Scenic Painter<br>"+
+    "Stephen Hitchcock – Lighting/Projection Designer<br>"+
+    "Justin Ruggiero – Associate Lighting Designer<br>"+
+    "Austin Critchlow – Assistant Lighting Designer<br>"+
+    "Annie Hu – Assistant Lighting Designer<br>"+
+    "Kerstin Heinrich – Assistant Lighting Designer<br>"+
+    "Alex Aguilar – Follow Spot Operator<br>"+
+    "Eric Rawn – Associate Projection Designer <br>"+
+    "Jamie Tippett  – Sound Designer<br>"+
+    "Allen Wehner – Assistant Sound Designer<br>"+
+    "Sean Konz – Assistant Sound Designer<br>"+
+    "Fran Schneider – Assistant Sound Designer<br>"+
+    "Garrick Fernandez – Set Designer<br>"+
+    "Nora Kelly – Costume Designer<br>"+
+    "Carolyn Manion – Assistant Costume Designer<br>"+
+    "Julia Axelrod – Hair and Makeup Designer<br>"+
+    "Som-Mai Nguyen – Graphic Designer"+
+
+"</div>"+
+"<div class=\"col-sm-7 col-xs-6 right\">"+
+    "<h3>Cast</h3>"+
+    "Arjun Sheth-Sam<br>"+
+    "Austin Zambito-Valente – Oscar<br>"+
+    "Brooke Hale – Queenie<br>"+
+    "Carter Burr-Kirven – Eddie<br>"+
+    "Cecilia Lang-Ree – Ensemble<br>"+
+    "Clarissa Carter – Madeleine True<br>"+
+    "Dru Brenner – Ensemble<br>"+
+    "Dylan Cooper – Phil<br>"+
+    "Elie Kuppermann – Ensemble<br>"+
+    "Elizabeth Reichert – Max<br>"+
+    "Ellen Woods – Dolores<br>"+
+    "Eve La Puma – Ensemble<br>"+
+    "James T Seifert – Burrs<br>"+
+    "Jess Fry – Jackie<br>"+
+    "Kyle Perez Robinson – Nadine<br>"+
+    "Mady Weiss – Mae<br>"+
+    "Nicole Hardson-Hurley – Kate<br>"+
+    "Peter Kurzner – Black<br>"+
+    "Samantha Loui – Ensemble<br>"+
+
+    "<h3>Orchestra</h3>"+
+    "Austin Flick – Bass Guitar<br>"+
+    "Brian Chu – Key 2<br>"+
+    "Michaela Hinks – Alto/Soprano Sax<br>"+
+    "John D'Atri – Trumpet<br>"+
+    "Matt Bernstein – Drums<br>"+
+    "Tiffany Jiang – Flute<br>"+
+    "Jared Bitz – Clarinet/Bass Clarinet<br>"+
+    "Momo Hoshi – Bari Sax<br>"+
+    "Joy Yuzuriha – Clarinet/Tenor Sax<br>"+
+    "Drew Bassilakis – Guitar"+
+"</div>";
 
 
 // Fourth Show Information, if fourth_show_this_season, it will add 4th show info to current season page
