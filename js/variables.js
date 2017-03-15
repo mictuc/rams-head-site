@@ -133,7 +133,7 @@ var spring_show_venue = "Memorial Auditorium, Stanford Univeristy";
 var spring_show_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var spring_show_ticket_costs = "Students $10 | Faculty & Staff $20 | Young Alumni ('13 or younger) $20 | General $25";
 var spring_show_ticket_info = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>! You can also buy tickets in White Plaza during week 1, 2, and 3 of Spring Quarter.";
-var spring_show_extra_ticket_info = "For group sales producer, reach out to <a id=\"spring_show_producer\"></a>!<br><br>Seating is unreserved.";
+var spring_show_extra_ticket_info = "For group sales, reach out to producer <a id=\"spring_show_producer\"></a>!<br><br>Seating is unreserved.";
 var spring_show_background_color = 000;
 var spring_show_link_color = 000;
 var spring_show_details = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!<br><br>The wild party contains themes of Sexual assault, violence, suicide, and drug/alcohol abuse";
