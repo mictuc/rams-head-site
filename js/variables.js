@@ -136,7 +136,7 @@ var spring_show_ticket_info = "Tickets are availble <a href=\"https://red.vendin
 var spring_show_extra_ticket_info = "For group sales, reach out to producer <a id=\"spring_show_producer\"></a>!<br><br>Seating is unreserved.";
 var spring_show_background_color = 000;
 var spring_show_link_color = 000;
-var spring_show_details = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!<br><br>This show contains graphic content, including sexual assault and depictions of drug & alcohol abuse, relationship abuse, violence, suicide, and death.";
+var spring_show_details = "Tickets are availble <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!<br><br>This show contains graphic content, including sexual assault and depictions of drug & alcohol abuse, relationship abuse, violence, suicide, and death. Viewer discretion is advised.";
 var spring_show_company = ""+
 "<div class=\"col-sm-6 col-xs-6 left\">"+
     "<h3>Production Staff</h3>"+
