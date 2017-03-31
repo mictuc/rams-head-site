@@ -1,5 +1,7 @@
-<?php   
+<?php
 include "top.php";
+header('Location: https://musical.stanford.edu');
+exit;
 ?>
 
         <span class="">
@@ -46,7 +48,7 @@ include "top.php";
 <p class="MsoNormal" style="margin: 0in 0in 0pt"><b style="mso-bidi-font-weight: normal"><span style="font-family: garamond">Laura Stampler (STORYTELLER) </span></b><span style="font-family: garamond">is a freshman from Los Angeles, California and is thrilled to be a part of Ram&#8217;s Head&#8217;s production of <i style="mso-bidi-font-style: normal">The Wild Party</i>.&nbsp; She has always loved theater and made her Stanford debut in Gaieties 2006: From Cal with Love.<o:p></o:p></span></p>
 <p class="MsoNormal" style="margin: 0in 0in 0pt"><span style="font-family: garamond"><o:p>&nbsp;</o:p></span></p>
 <p class="MsoNormal" style="margin: 0in 0in 0pt"><b style="mso-bidi-font-weight: normal"><span style="font-family: garamond">Andrea Taylor (STORYTELLER)</span></b><span style="font-family: garamond"> is a freshman excited to be performing in her first Stanford production after doing tech crew for 2006 Gaieties! Growing up in Los Angeles, she was a member of the Silverlake Children's Theater Company before becoming involved in the Marlborough High School Musical Theater program. She thanks her parents, Grandpa, and little sister for always supporting her.</span></p></span>
- 
+
 <?php
 include "bottom.php";
 ?>

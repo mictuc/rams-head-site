@@ -1,5 +1,7 @@
 <?php
 include "top.php";
+header('Location: https://musical.stanford.edu');
+exit;
 ?>
 <span class="">
 <font color="#000000"><span style="color: white; mso-bidi-font-size: 8.0pt"><span style="mso-spacerun: yes"><span class="">
