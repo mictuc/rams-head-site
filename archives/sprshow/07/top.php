@@ -1,8 +1,9 @@
 <HTML>
 <HEAD>
+<meta http-equiv="refresh" content="0; url=https://musical.stanford.edu" />
 <link href="style.css" rel="stylesheet" type="text/css">
 <TITLE>The Wild Party - Ram's Head Theatrical Society</TITLE>
-<!-- © Davide Cardello - Fotolia.com -->
+<!-- ï¿½ Davide Cardello - Fotolia.com -->
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
 </HEAD>
 <BODY BGCOLOR=#000000 LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
@@ -46,4 +47,3 @@
     scrollbar-face-color: #FF0000;
 	scrollbar-arrow-color: #737373;
 	scrollbar-darkShadow-color: #AFDEF1;">
-
