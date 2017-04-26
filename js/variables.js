@@ -262,11 +262,9 @@ var alumni_board =  [
                     "<a id=\"alumni_board_president\"></a>, '94, MA '96, President",
                     "Raphe Beck, '92",
                     "Vince Foecke, '81, MS '82",
-                    "Heather McAvoy, '83",
                     "John Mannion '89",
                     "Alicia Sanders, '01",
                     "Erik Stuart, PhD '00",
-                    "Adam Tobin, '93",
                     "Debbie Wicks La Puma, '91"
                     ];
 
