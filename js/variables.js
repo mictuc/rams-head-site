@@ -7,12 +7,12 @@
  */
 
 // Slide one Information
-var slide_one_title = "Ram’s Head is having a <i>Wild Party</i>!";
-var slide_one_subtitle = "And we’re inviting you! <br><br><i>The Wild Party</i><br>April 14, 15, 20, 21, 22 at 8PM, Memorial Auditorium, Tickets 10–25$"
-var slide_one_image = "includes/images/slider/party_slider.jpg";
+var slide_one_title = "Congratulations to <i>The Wild Party</i>!";
+var slide_one_subtitle = "<i>The Wild Party</i> has closed—congratulations to everyone on a phenomenal run! (Photo credit: Frank Chen)"
+var slide_one_image = "includes/images/slider/wild-party-stage.jpg";
 var slide_one_button_present = true;
-var slide_one_button_text = "Tickets and More Info";
-var slide_one_button_link = "http://musical.stanford.edu/";
+var slide_one_button_text = "Read the Review";
+var slide_one_button_link = "http://news.stanford.edu/2017/04/19/wild-party-stanfords-memorial-auditorium/";
 
  // Slide two Information
  var slide_two_title = "Congrats to <i><br>OWOA 2017</i>!";
