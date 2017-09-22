@@ -235,8 +235,8 @@ var fourth_show_description = "<strong>About The Show:</strong> "+fourth_show_sy
 "out with Disrupt! reach out to producer <a id=\"spring_show_producer\"></a>.";
 
 // Leadership Information
-var ep_name = "Holly Dayton";
-var ep_email = "daytonh@stanford.edu";
+var ep_name = "Annabel Ostrow";
+var ep_email = "aostrow@stanford.edu";
 var board_members = [
                     "Charlotte Dubach-Reinhold",
                     "Victor Ragsdale (Fall)",
