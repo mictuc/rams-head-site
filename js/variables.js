@@ -33,15 +33,15 @@ var slide_one_button_link = "http://news.stanford.edu/2017/04/19/wild-party-stan
 
 
 // Gaieties Information
-var gaieties_title = "Gaieties of Future Past";
-var gaieties_producer_name = "Alejandra Aguilar";
-var gaieties_producer_email = "aaguilar2@stanford.edu";
+var gaieties_title = "Gaieties 2017";
+var gaieties_producer_name = "Robin Yoo";
+var gaieties_producer_email = "ryoo@stanford.edu";
 var gaieties_synopsis = "Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
 "Performed the week before Big Game against Cal, Gaieties is the ultimate celebration "+
 "of how proud, ridiculous, and clever we are as Stanford students. It's a Stanford "+
 "tradition not to be missed!";
-var gaieties_description = "<strong>Read the <a href=\"http://stanfordartsreview.com/gaieties-2016/\">Review</a>!</strong>"+
-"<br><br><strong>About The Show:</strong> "+gaieties_synopsis+
+var gaieties_description = ""+
+"<strong>About The Show:</strong> "+gaieties_synopsis+
 "<br><br><strong>Curious?</strong> Direct any questions to producer <a id=\"gaieties_producer\"></a>.<br><br>"+
 "<strong>For More Information</strong> visit <a href=\"https://gaieties.stanford.edu\">gaieties.stanford.edu</a>";
 var gaieties_cover_photo = "";//<img src=\"Images/gaieties.jpg\" style=\"width:120%\">";
@@ -55,9 +55,9 @@ var gaieties_background_color = 000;
 var gaieties_link_color = 000;
 
 // OWOA Information
-var owoa_title = "Original Winter One Acts 2017";
-var owoa_producer_name = "Meley Gebresellassie";
-var owoa_producer_email = "meleyg@stanford.edu";
+var owoa_title = "Original Winter One Acts 2018";
+var owoa_producer_name = "Peter Morgan";
+var owoa_producer_email = "peter816@stanford.edu";
 var owoa_synopsis = "The Original Winter One Acts are a beloved annual Stanford "+
 "tradition dating back to the 1980s. Three one act plays, all written, directed, "+
 "and performed by students, make their world premieres at Stanford and proudly "+
@@ -122,9 +122,9 @@ var owoa_company = ""+
 
 
 // Spring Show Information
-var spring_show_title = "The Wild Party";
-var spring_show_producer_name = "Andy Kao";
-var spring_show_producer_email = "andykao@stanford.edu";
+var spring_show_title = "Chicago";
+var spring_show_producer_name = "Alejandra Aguilar";
+var spring_show_producer_email = "aaguila2@stanford.edu";
 var spring_show_synopsis = "When glamorous and frustrated couple Queenie and Burrs get into a terrible fight, they decide to throw a wild party to defuse the tension. Things get out of control quickly when the beautiful Kate and her date, the inscrutable Black, arrive on the scene. Inspired by the 1928 poem by Joseph Moncure March, our production of Andrew Lippa's The Wild Party is intense, jazzy, dark, and thrilling.";
 var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis+
 "<br><br><strong>Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!</strong> If you want to help "+
@@ -238,17 +238,16 @@ var fourth_show_description = "<strong>About The Show:</strong> "+fourth_show_sy
 var ep_name = "Annabel Ostrow";
 var ep_email = "aostrow@stanford.edu";
 var board_members = [
-                    "Charlotte Dubach-Reinhold",
-                    "Victor Ragsdale (Fall)",
-                    "Stephanie Sapp(Fall)",
-                    "James Sherwood",
-                    "Jamie Tippett (Winter, Spring)",
-                    "Michael Tucker (Winter, Spring)",
-                    "Alison Valentine"
+                    "Charlie Dubach-Reinhold",
+                    "Jamie Tippett",
+                    "Allen Wehner",
+                    "Kyle Robinson",
+                    "Trey Hale",
                     ];
-var alumni_coordinator = "James Seifert";
-var social_manager = "Peter Kurzner";
-var financial_officer = "James Sherwood";
+var alumni_coordinator = "Ellen Woods";
+var social_manager = "Zachary Damann";
+var financial_officer = "Charlie Dubach-Reinhold";
+var tsf_coordinator = "CJ Paige";
 var theatrical_resource_manager = "Sage Voorhees, Connor Asercion";
 var costumes_props_manager = "Kyle Robinson";
 var webmaster = "Garrick Fernandez";
