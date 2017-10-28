@@ -61,7 +61,7 @@ var owoa_producer_email = "peter816@stanford.edu";
 var owoa_synopsis = "The Original Winter One Acts are a beloved annual Stanford "+
 "tradition dating back to the 1980s. Three one act plays, all written, directed, "+
 "and performed by students, make their world premieres at Stanford and proudly "+
-"showcase student talent in writing for the stage.";
+"showcase student talent in writing for the stage. <br><br> Shows: Sweet by Megan Calfas and A Thousand Eyes by Alli Cruz";
 var owoa_description = "<strong>About The Show:</strong> "+owoa_synopsis+
 "<br><br>Learn more at <a href=\"https://owoa.stanford.edu\">owoa.stanford.edu</a>!<br><br><strong>Questions?</strong> Reach out to producer <a id=\"owoa_producer\"></a>.";
 var owoa_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/owoa.jpg\" style=\"width:120%\">";
@@ -125,16 +125,15 @@ var owoa_company = ""+
 var spring_show_title = "Chicago";
 var spring_show_producer_name = "Alejandra Aguilar";
 var spring_show_producer_email = "aaguila2@stanford.edu";
-var spring_show_synopsis = "When glamorous and frustrated couple Queenie and Burrs get into a terrible fight, they decide to throw a wild party to defuse the tension. Things get out of control quickly when the beautiful Kate and her date, the inscrutable Black, arrive on the scene. Inspired by the 1928 poem by Joseph Moncure March, our production of Andrew Lippa's The Wild Party is intense, jazzy, dark, and thrilling.";
-var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis+
-"<br><br><strong>Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>!</strong> If you want to help "+
-"<br><br>Learn more at <a href=\"https://musical.stanford.edu\">musical.stanford.edu</a>!<br><br><strong>Questions?</strong> Reach out to producer <a id=\"spring_show_producer\"></a>.";
+var spring_show_synopsis = "The hit musical is coming to Stanford...";
+var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis + 
+"<br><strong>Questions?</strong> Email producer <a href=\"mailto:" + spring_show_producer_email + "\">" + spring_show_producer_name + "<a>.";
 var spring_show_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/spring_show.jpg\" style=\"width:120%\">";
 var spring_show_performance_dates = "April 14, 15, 20, 21, 22 2017 at 8pm";
 var spring_show_venue = "Memorial Auditorium, Stanford Univeristy";
 var spring_show_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3421652290995!2d-122.16863748469214!3d37.42902087982372!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad6282cb75f%3A0x414fc29202fde37f!2sStanford+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1477917566174\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var spring_show_ticket_costs = "Students $10 | Faculty & Staff $20 | Young Alumni ('13 or younger) $20 | Seniors $20 | General $25";
-var spring_show_ticket_info = "Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>! You can also buy tickets in White Plaza during week 1, 2, and 3 of Spring Quarter.";
+var spring_show_ticket_info = "Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=77c4fcbceb1ca72663264ec268822f98\">here</a>! You can also buy tickets in White Plaza during week 1, 2, and 3 of Spring Quarter";
 var spring_show_extra_ticket_info = "For group sales, reach out to producer <a id=\"spring_show_producer\"></a>!<br><br>Seating is unreserved.";
 var spring_show_background_color = 000;
 var spring_show_link_color = 000;
