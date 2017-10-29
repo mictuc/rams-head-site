@@ -1,0 +1,26 @@
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	max-width: 1000px;
+	padding-top: 2rem;
+}
+
+#splash {
+	background: 100% url('../images/fur_bg_web.jpg');
+	height: 100vh;
+}
+
+.img-fluid {
+	width: 100%;
+}
+
+#info {
+	z-index: 999;
+}
+
+table {
+	width: 100%;
+}

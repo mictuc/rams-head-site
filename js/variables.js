@@ -33,7 +33,7 @@ var slide_one_button_link = "http://news.stanford.edu/2017/04/19/wild-party-stan
 
 
 // Gaieties Information
-var gaieties_title = "Gaieties 2017";
+var gaieties_title = "Gaieties 2017: Bearanormal Activity";
 var gaieties_producer_name = "Robin Yoo";
 var gaieties_producer_email = "ryoo@stanford.edu";
 var gaieties_synopsis = "Gaieties is an annual, student-written musical extravaganza dating back to 1911. "+
