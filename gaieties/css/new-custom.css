@@ -3,13 +3,18 @@ body, html {
 	margin: 0;
 }
 
+h1, h2, h3, table, .btn {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
 .container {
 	max-width: 1000px;
 	padding-top: 2rem;
 }
 
 #splash {
-	background: 100% url('../images/fur_bg_web.jpg');
+	background: 100% url('../Images/fur_bg_web.jpg');
 	height: 100vh;
 }
 
