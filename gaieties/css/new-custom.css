@@ -24,3 +24,19 @@ body, html {
 table {
 	width: 100%;
 }
+
+td:first-child {
+	font-weight: bold;
+}
+
+th:after {
+	content: "";
+	display: block;
+	width: 200px;
+	height: 2px;
+	background-color: #aaa;
+}
+
+tr:nth-child(even) {
+	background-color: #eee;
+}

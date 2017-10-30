@@ -125,9 +125,9 @@ var owoa_company = ""+
 var spring_show_title = "Chicago";
 var spring_show_producer_name = "Alejandra Aguilar";
 var spring_show_producer_email = "aaguila2@stanford.edu";
-var spring_show_synopsis = "The hit musical is coming to Stanford...";
+var spring_show_synopsis = "In roaring twenties Chicago, chorine Roxie Hart murders a faithless lover and convinces her hapless husband, Amos, to take the rap...until he finds out he's been duped and turns on Roxie. Convicted and sent to death row, Roxie and another \"Merry Murderess,\" Velma Kelly, vie for the spotlight and the headlines, ultimately joining forces in search of the \"American Dream\": fame, fortune, and acquittal. This sharp-edged satire features a dazzling score that sparked immortal staging by Bob Fosse.<br><br>For information about auditions, check out the <a href=\"https://docs.google.com/a/stanford.edu/document/d/175cdtBhDE7dcnfl1TxRF8zweKqxx2OLyKLmnGcCCJMM/edit?usp=sharing\">audion information packet</a>.";
 var spring_show_description = "<strong>About The Show:</strong> "+spring_show_synopsis + 
-"<br><strong>Questions?</strong> Email producer <a href=\"mailto:" + spring_show_producer_email + "\">" + spring_show_producer_name + "<a>.";
+"<br><br><strong>Questions?</strong> Email producer <a href=\"mailto:" + spring_show_producer_email + "\">" + spring_show_producer_name + "<a>.";
 var spring_show_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/spring_show.jpg\" style=\"width:120%\">";
 var spring_show_performance_dates = "April 14, 15, 20, 21, 22 2017 at 8pm";
 var spring_show_venue = "Memorial Auditorium, Stanford Univeristy";
