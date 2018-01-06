@@ -69,11 +69,11 @@ var owoa_performance_dates = "January 19, 20, 21 at 8pm";
 var owoa_venue = "Pigott Theater, Memorial Auditorium";
 var owoa_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3332139111567!2d-122.16891158469221!3d37.42923237982379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb29d01e2ba3%3A0x14ddc91bdea91b1d!2sPigott+Theater!5e0!3m2!1sen!2sus!4v1482869313726\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var owoa_ticket_costs = "$5 Students | $10 General";
-var owoa_ticket_info = "Tickets are available <a href=\"https://apps.vendini.com/ticket-software.html?t=tix&e=7659392a065c3b9e5ae60bfed6b1d995&vqitq=bc512f8e-d8e5-4832-b48c-5dc0c58bb6f2&vqitp=78f90509-9e99-44e0-898a-7a98eb98cda9&vqitts=1484077048&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=2fe05fc23ce4aa5870b75bd981b625b3\">here</a>! You can also buy tickets in White Plaza during week 2 of Winter Quarter.";
+var owoa_ticket_info = "Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>! You can also buy tickets in White Plaza during week 2 of Winter Quarter.";
 var owoa_extra_ticket_info = "Seating is unreserved.";
 var owoa_background_color = 000;
 var owoa_link_color = 000;
-var owoa_details = "<h2>Tickets are available <a href=\"https://apps.vendini.com/ticket-software.html?t=tix&e=7659392a065c3b9e5ae60bfed6b1d995&vqitq=bc512f8e-d8e5-4832-b48c-5dc0c58bb6f2&vqitp=78f90509-9e99-44e0-898a-7a98eb98cda9&vqitts=1484077048&vqitc=vendini&vqite=itl&vqitrt=Safetynet&vqith=2fe05fc23ce4aa5870b75bd981b625b3\">here</a>!<br><br>Don't miss your chance to see the premiere of the three incredible one acts in OWOA!<br>OWOA 2017 will be proudly premiering:</h2><br><br><font size = 4><i>P.S. Please Send Money</i> by Olivia Popp<br>Melissa and George are assigned to complete a psychological profile on each other, but what will they uncover about each other?<br><br><i>Will</i> by Steve Rathje<br>Allie, a young woman who suffers from aboulomania hires Will, a decisions consultant, to help her make decisions in life.<br><br><i>On the Detection of Dark Matter</i> by Fiona Maguire<br>Grace hopes to get a grant for her research on dark matter with her boyfriend Nick by her side, but past family secrets may get in her way.</font>";
+var owoa_details = "<h2>Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>!<br><br> Shows: Sweet by Megan Calfas and A Thousand Eyes by Alli Cruz</font>";
 var owoa_company = ""+
 "<div class=\"col-sm-5 col-xs-6 left\">"+
     "<h3>Production Staff</h3>"+
