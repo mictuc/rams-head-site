@@ -61,19 +61,19 @@ var owoa_producer_email = "peter816@stanford.edu";
 var owoa_synopsis = "The Original Winter One Acts are a beloved annual Stanford "+
 "tradition dating back to the 1980s. Three one act plays, all written, directed, "+
 "and performed by students, make their world premieres at Stanford and proudly "+
-"showcase student talent in writing for the stage. <br><br> Shows: Sweet by Megan Calfas and A Thousand Eyes by Alli Cruz";
+"showcase student talent in writing for the stage. This year, we are proudly presenting two shows: <br><br> <b>Sweet</b> by Megan Calfas<br>A snowstorm traps high schooler Jaime in the Rose Motel—a place where candy is served for dinner, cooks spend most of their days in long bubble baths, and flowers are watered with melted snow. The motel's owner, Rose, tries to deny sorrow with sweetness, eventually dicovering there are some things candy can't cure. <br><br><b>A Thousand Eyes</b> by Alli Cruz<br> After years of struggling under the cultural pressure to work hard, as well as the societal pressure to succeed socially and academically, a college student named Pina finds herself recovering from a recent suicide attempt. With the help of her roommate, Lucy, a white and wealthy former model struggling with anorexia nervosa, Pina begins to understand the importance of embracing her cultural and familial roots. At the same time, an old Filipino myth about the first pineapple becomes a powerful backdrop in the show, a myth which describes a lazy young girl—also named Pina—who gets turned into a pinapple with 'a thousand tiny eyes.' Pina begins to question whether the root of laziness could be a type of depression, and whether or not having a thousand eyes could help her find exactly what she's looking for: happiness and her sense of self.";
 var owoa_description = "<strong>About The Show:</strong> "+owoa_synopsis+
 "<br><br>Learn more at <a href=\"https://owoa.stanford.edu\">owoa.stanford.edu</a>!<br><br><strong>Questions?</strong> Reach out to producer <a id=\"owoa_producer\"></a>.";
 var owoa_cover_photo = "<img src=\"https://ramshead.stanford.edu/includes/images/banners/owoa.jpg\" style=\"width:120%\">";
-var owoa_performance_dates = "January 19, 20, 21 at 8pm";
+var owoa_performance_dates = "January 18, 19, 20 at 8pm";
 var owoa_venue = "Pigott Theater, Memorial Auditorium";
 var owoa_map = "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3332139111567!2d-122.16891158469221!3d37.42923237982379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb29d01e2ba3%3A0x14ddc91bdea91b1d!2sPigott+Theater!5e0!3m2!1sen!2sus!4v1482869313726\" width=\"400\" height=\"300\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>";
 var owoa_ticket_costs = "$5 Students | $10 General";
-var owoa_ticket_info = "Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>! You can also buy tickets in White Plaza during week 2 of Winter Quarter.";
+var owoa_ticket_info = "Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>! You can also buy tickets in White Plaza in the weeks leading up to the show.";
 var owoa_extra_ticket_info = "Seating is unreserved.";
 var owoa_background_color = 000;
 var owoa_link_color = 000;
-var owoa_details = "<h2>Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>!<br><br> Shows: Sweet by Megan Calfas and A Thousand Eyes by Alli Cruz</font>";
+var owoa_details = "<h2>Tickets are available <a href=\"https://red.vendini.com/ticket-software.html?t=tix&e=6f7d464da118a8bd4a001261b2da8f68\">here</a>!<br><br> Shows: Sweet by Megan Calfas and A Thousand Eyes by Alli Cruz";
 var owoa_company = ""+
 "<div class=\"col-sm-5 col-xs-6 left\">"+
     "<h3>Production Staff</h3>"+
@@ -267,7 +267,7 @@ var alumni_board =  [
                     ];
 
 // Other Information
-var season_years = "2016-2017";
+var season_years = "2017-2018";
 var about_rams_head = "Founded in 1911, Ram's Head Theatrical Society is Stanford's oldest and largest theatrical organization. Each year the group provides acting, directing, designing, and play writing opportunities to over 120 students, and its productions are attended by more than 6,000 people annually. Annual productions include campus traditions such as Gaieties, the Original Winter One Acts, and a full scale Broadway musical. For more info about Ram's Head, visit <a href=\"http://ramshead.stanford.edu\">our website</a>."
 var mailing_address = "";
-var copyright_year = "2017";
+var copyright_year = "2018";
